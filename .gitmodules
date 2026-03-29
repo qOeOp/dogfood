@@ -1,0 +1,3 @@
+[submodule ".agents/skills/harness"]
+	path = .agents/skills/harness
+	url = git@github.com:qOeOp/harness.git
