@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0011
+- At: 2026-03-30 00:04:57
+- From: review
+- To: review
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260330T000457-28924-WI-0011-link-artifact
+- Expected from: review
+- Expected version: 15
+- Version before: 15
+- Version after: 16
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0011/history/transitions/TX-20260329T235758-WI-0011-in-progress-to-review.md
+- Prev event hash: 2f1e98682846c4d78676105180a4ca0bbf71f8903a48e0d8511675f1ec21d179
+- Event hash: 22ec2967e7cb65a65eaa0f576654a188bf58857dc16f3671982f9ddf33a551b4

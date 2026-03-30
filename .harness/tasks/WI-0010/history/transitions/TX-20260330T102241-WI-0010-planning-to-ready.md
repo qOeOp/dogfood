@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-30 10:22:41
+- From: planning
+- To: ready
+- Actor: codex
+- Reason: start bounded subtractive compaction slice on complete_work_item surface
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260330T102241-91478-WI-0010-planning-to-ready
+- Expected from: planning
+- Expected version: 8
+- Version before: 8
+- Version after: 9
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260329T234915-WI-0010-planning-to-planning-1.md
+- Prev event hash: 746d9deae681376ec0b85824fc89893fe7f12f92ea8cb91c3f619d2beb510ebb
+- Event hash: 7e3ce68473944823fa4329c8a6776e8c19a37839a6a00822169bdbceccf5e6c6

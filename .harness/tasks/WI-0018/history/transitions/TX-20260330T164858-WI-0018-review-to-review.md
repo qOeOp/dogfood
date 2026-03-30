@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0018
+- At: 2026-03-30 16:48:58
+- From: review
+- To: review
+- Actor: codex
+- Reason: work item fields updated: Decision status,Review status,Acceptance status
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0018-accept-approve-gates
+- Expected from: review
+- Expected version: 10
+- Version before: 10
+- Version after: 11
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/work_item_ctl.sh
+- Prev event: .harness/tasks/WI-0018/history/transitions/TX-20260330T164857-WI-0018-review-to-review.md
+- Prev event hash: 6b2377b30636b65144e6656298f9b25c47eefe0146c99ea2d3c4296cedc8727c
+- Event hash: 1038a4e5190f76e63453ebdc753c3fc1b36b2888e7e6b6116b76c62cb5e288a2

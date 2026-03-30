@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0001
+- At: 2026-03-29 18:37:29
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: planning -> research
+- Operation ID: OP-20260329T183729-60726-WI-0001-link-artifact
+- Expected from: planning
+- Expected version: 6
+- Version before: 6
+- Version after: 7
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0001/history/transitions/TX-20260329T183724-WI-0001-planning-to-planning.md
+- Prev event hash: 21442ee548e3935df67ec5cab65c0b0ee52dbdf84e1e58b462b8572bcd24c11d
+- Event hash: 98696e6c8c88a70f7a09248194236932a424df899699877d84626abd9f57cccc

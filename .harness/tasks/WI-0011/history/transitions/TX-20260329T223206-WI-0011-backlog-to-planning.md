@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0011
+- At: 2026-03-29 22:32:06
+- From: backlog
+- To: planning
+- Actor: codex
+- Reason: planning started for shared-scope selector concurrency audit
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260329T223206-29893-WI-0011-backlog-to-planning
+- Expected from: backlog
+- Expected version: 2
+- Version before: 2
+- Version after: 3
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0011/history/transitions/TX-20260329T223201-WI-0011-backlog-to-backlog.md
+- Prev event hash: b9179cb0ff34e1cc1c44b1942e73fbb632899863ea5ae4ba109b183997f0c0e3
+- Event hash: 227081d9c68bb559c89b154a8fc838f20f915920021bb6a61991a47da75a59d7

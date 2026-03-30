@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0016
+- At: 2026-03-30 11:30:06
+- From: backlog
+- To: planning
+- Actor: codex
+- Reason: formal controller draft prepared
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0016-backlog-to-planning
+- Expected from: backlog
+- Expected version: 2
+- Version before: 2
+- Version after: 3
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0016/history/transitions/TX-20260330T113005-WI-0016-backlog-to-backlog.md
+- Prev event hash: 73ef3d8365d2f79e7f862dc6261d54da74e6744102b6c38ac5132dcc9ba5b42b
+- Event hash: 703b1b31810f399ed94bb4e26a43e1d8b19de01bc15160ec77a9ea9bae86dbad

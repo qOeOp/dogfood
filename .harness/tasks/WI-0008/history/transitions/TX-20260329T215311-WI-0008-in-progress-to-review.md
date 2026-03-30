@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0008
+- At: 2026-03-29 21:53:11
+- From: in-progress
+- To: review
+- Actor: codex
+- Reason: ready for acceptance review
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0008-to-review
+- Expected from: in-progress
+- Expected version: 7
+- Version before: 7
+- Version after: 8
+- Interrupt marker: none
+- Resume target: none
+- Invoker: automation:slef-evolution
+- Prev event: .harness/tasks/WI-0008/history/transitions/TX-20260329T215311-WI-0008-in-progress-to-in-progress.md
+- Prev event hash: 664055ae2e326d78d9a8b7c247ba33386378e1cab114a8cf11bd1b215581fbbd
+- Event hash: e262f6d582b2adcc88ca49f527c74035b2021b0b8c285dec498bcaba6c4a49fa

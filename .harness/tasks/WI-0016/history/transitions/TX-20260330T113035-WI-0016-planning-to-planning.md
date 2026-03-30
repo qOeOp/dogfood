@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0016
+- At: 2026-03-30 11:30:35
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: work item fields updated: Owner,Current stage owner
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0016-owner-alignment
+- Expected from: planning
+- Expected version: 3
+- Version before: 3
+- Version after: 4
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0016/history/transitions/TX-20260330T113006-WI-0016-backlog-to-planning.md
+- Prev event hash: 703b1b31810f399ed94bb4e26a43e1d8b19de01bc15160ec77a9ea9bae86dbad
+- Event hash: 64564c24a1de408670d489bffbd977e8030cc59554f3e3f39d26119607514b4e

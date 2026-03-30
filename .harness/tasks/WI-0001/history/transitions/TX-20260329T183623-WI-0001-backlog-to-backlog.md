@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0001
+- At: 2026-03-29 18:36:23
+- From: backlog
+- To: backlog
+- Actor: codex
+- Reason: work item fields updated: Owner,Objective,Ready criteria,Done criteria,Required artifacts,Current stage owner,Current stage role,Next gate,Why it matters,Decision needed,Current blocker,Next handoff
+- Event type: field-update
+- Current blocker: validate_workspace.sh --mode core fails immediately after first task creation because runtime docs are missing.
+- Next handoff: planning -> implementation
+- Operation ID: OP-20260329T183623-56357-WI-0001-update-fields
+- Expected from: backlog
+- Expected version: 1
+- Version before: 1
+- Version after: 2
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0001/history/transitions/TX-20260329T182548-WI-0001-none-to-backlog.md
+- Prev event hash: fbdbedf37a273d5df970545ef90cb15f4bb2da83e645cd5105bde6ce9b0df0ed
+- Event hash: 958514182c0f9b150c6f9ee7da1ca48fb710b07f81de44201c0df26a6e6595ea

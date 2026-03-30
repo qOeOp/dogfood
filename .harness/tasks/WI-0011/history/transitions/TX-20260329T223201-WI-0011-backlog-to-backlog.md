@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0011
+- At: 2026-03-29 22:32:01
+- From: backlog
+- To: backlog
+- Actor: codex
+- Reason: work item fields updated: Objective,Ready criteria,Done criteria,Why it matters,Decision needed
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260329T223201-29124-WI-0011-update-fields
+- Expected from: backlog
+- Expected version: 1
+- Version before: 1
+- Version after: 2
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0011/history/transitions/TX-20260329T222920-WI-0011-none-to-backlog.md
+- Prev event hash: 1ba92c43fa5264af20d6daf92af9c7a0b2f2e9f9fd65349b0820fe1e418f4e09
+- Event hash: b9179cb0ff34e1cc1c44b1942e73fbb632899863ea5ae4ba109b183997f0c0e3

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0004
+- At: 2026-03-29 22:07:13
+- From: planning
+- To: ready
+- Actor: codex
+- Reason: confirmed profile-conflict evidence and selected preflight path
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0004-to-ready
+- Expected from: planning
+- Expected version: 10
+- Version before: 10
+- Version after: 11
+- Interrupt marker: none
+- Resume target: none
+- Invoker: automation:slef-evolution
+- Prev event: .harness/tasks/WI-0004/history/transitions/TX-20260329T220713-WI-0004-planning-to-planning.md
+- Prev event hash: f76302065b1cde7588a7d12f7c961d3fec07b0e0f043bd2f4e8e397875976a86
+- Event hash: 010fe74b7b5f9f9d1557456c303d4cd1beccd5a6010b9a16d31a0a666896bfbe

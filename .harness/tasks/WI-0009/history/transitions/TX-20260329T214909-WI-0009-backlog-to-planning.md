@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0009
+- At: 2026-03-29 21:49:09
+- From: backlog
+- To: planning
+- Actor: codex
+- Reason: entropy effectiveness audit scoped and evidence collection started
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260329T214909-95285-WI-0009-backlog-to-planning
+- Expected from: backlog
+- Expected version: 4
+- Version before: 4
+- Version after: 5
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0009/history/transitions/TX-20260329T214858-WI-0009-backlog-to-backlog.md
+- Prev event hash: c1aecba8c40f2067d8bcad6b931427a874190c535ec60e490a3e0591cbe87681
+- Event hash: 7bf8ccc5a708bc5e6740264e87a6c449bbf2b79d0b292b0190ec009855ee272e

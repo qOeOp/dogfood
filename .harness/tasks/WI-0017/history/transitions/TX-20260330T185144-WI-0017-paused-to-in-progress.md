@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0017
+- At: 2026-03-30 18:51:44
+- From: paused
+- To: in-progress
+- Actor: codex
+- Reason: work item resumed after risk-review-required via ./.agents/skills/harness/scripts/resume_work_item.sh
+- Event type: resume
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260330T185144-18023-WI-0017-paused-to-in-progress
+- Expected from: paused
+- Expected version: 12
+- Version before: 12
+- Version after: 13
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/work_item_ctl.sh
+- Prev event: .harness/tasks/WI-0017/history/transitions/TX-20260330T183724-WI-0017-paused-to-paused.md
+- Prev event hash: 2cda5cf8c103b468be8765eb42d2288d36a70a27aa92dcdc6618a303fa45093a
+- Event hash: 383e076018e8b65f89946fb7d223dad95634bf558cc6479761a7fc6f9c9a1e6c

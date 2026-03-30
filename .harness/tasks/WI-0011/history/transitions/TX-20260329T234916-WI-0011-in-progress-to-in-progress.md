@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0011
+- At: 2026-03-29 23:49:16
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: work item fields updated: Blocked by,Current blocker,Next handoff
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260329T234916-12321-WI-0011-update-fields
+- Expected from: in-progress
+- Expected version: 12
+- Version before: 12
+- Version after: 13
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0011/history/transitions/TX-20260329T224449-WI-0011-in-progress-to-in-progress-1.md
+- Prev event hash: a3a01c96ebb8d513874beada87a32aecf0b8765d10600444217681822bc3ca8f
+- Event hash: 909fbac0ca526e2cd8c7e911798a9da272dbb2e06461b23547eecdde4087bd27

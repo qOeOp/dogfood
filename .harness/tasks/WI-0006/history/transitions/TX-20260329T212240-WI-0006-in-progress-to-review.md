@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0006
+- At: 2026-03-29 21:22:40
+- From: in-progress
+- To: review
+- Actor: codex
+- Reason: transition obligation kernel slice implemented and validated
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0006-review
+- Expected from: in-progress
+- Expected version: 5
+- Version before: 5
+- Version after: 6
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0006/history/transitions/TX-20260329T211404-WI-0006-ready-to-in-progress.md
+- Prev event hash: a6ad144d052621cd6c26a8fbe657695761b27eeae35943c7dd1beda4a79eb701
+- Event hash: 4f91372d34b5d81bf8f012825e3d5a532eb3b0b4491b2e1df31e96547c0b943d

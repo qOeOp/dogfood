@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0001
+- At: 2026-03-29 18:43:08
+- From: in-progress
+- To: review
+- Actor: codex
+- Reason: Lazy minimum-core bootstrap implemented and validated; ready for review.
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0001-review
+- Expected from: in-progress
+- Expected version: 9
+- Version before: 9
+- Version after: 10
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/complete_work_item.sh
+- Prev event: .harness/tasks/WI-0001/history/transitions/TX-20260329T184157-WI-0001-ready-to-in-progress.md
+- Prev event hash: b9d962fecad13b4c25a48155189fd662b393dbad34065278cd7fa2a8f933f45d
+- Event hash: 4c5102d7545639cfdf2404f28081a9620238dc8b0bcf07c13ef1cab4df7a0ad5

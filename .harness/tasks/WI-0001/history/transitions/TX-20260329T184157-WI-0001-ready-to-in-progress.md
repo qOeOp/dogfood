@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0001
+- At: 2026-03-29 18:41:57
+- From: ready
+- To: in-progress
+- Actor: codex
+- Reason: runtime bootstrap fix implementation
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0001-start
+- Expected from: ready
+- Expected version: 8
+- Version before: 8
+- Version after: 9
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/start_work_item.sh
+- Prev event: .harness/tasks/WI-0001/history/transitions/TX-20260329T184135-WI-0001-planning-to-ready.md
+- Prev event hash: 2ee1aae5ddffb61ab1847a6188cf0e3e77e1711b182e040970c5b252ad13a24a
+- Event hash: b9d962fecad13b4c25a48155189fd662b393dbad34065278cd7fa2a8f933f45d

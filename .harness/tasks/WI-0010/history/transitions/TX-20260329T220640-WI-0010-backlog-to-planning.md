@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-29 22:06:40
+- From: backlog
+- To: planning
+- Actor: codex
+- Reason: entropy threshold triggered compaction work
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260329T220640-70743-WI-0010-backlog-to-planning
+- Expected from: backlog
+- Expected version: 2
+- Version before: 2
+- Version after: 3
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260329T220640-WI-0010-backlog-to-backlog.md
+- Prev event hash: 2af7ed5be5054780954660916c1589bf8a2d25c9c3e8296c65abfb82fab30bec
+- Event hash: 5d6fad2e98178282f2b374e3d067f2500e7084c07cb486fc1994ee529e02d3b8

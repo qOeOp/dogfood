@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0017
+- At: 2026-03-30 17:46:54
+- From: planning
+- To: ready
+- Actor: codex
+- Reason: Promote WI-0017 to ready after sensing confirmed it is the highest-leverage follow-up.
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0017-ready-transition
+- Expected from: planning
+- Expected version: 4
+- Version before: 4
+- Version after: 5
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0017/history/transitions/TX-20260330T130419-WI-0017-planning-to-planning.md
+- Prev event hash: 92a59fa31ba472f5895728a0cac80d5481345648db1c4bf56a7552956cc7b7fa
+- Event hash: d5c116ce0398e2efdd64734c45b4c05df62ff7eb464611687feeab571920095c

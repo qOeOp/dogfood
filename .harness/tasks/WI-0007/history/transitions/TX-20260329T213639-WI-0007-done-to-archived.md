@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0007
+- At: 2026-03-29 21:36:39
+- From: done
+- To: archived
+- Actor: codex
+- Reason: accepted compounding boundary fix archived after closeout checkpoint
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0007-archive
+- Expected from: done
+- Expected version: 11
+- Version before: 11
+- Version after: 12
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0007/history/transitions/TX-20260329T213638-WI-0007-done-to-done.md
+- Prev event hash: 1441ef0379c6c7eb8b05ad4b13b856de87c5a7042df7c453097359c49579fcec
+- Event hash: e4dd1b57958f8ca66e026cc22ce1001b4dcf515d328171fca97c4a09d19ccd9e

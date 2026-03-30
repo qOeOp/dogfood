@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0012
+- At: 2026-03-30 11:46:33
+- From: in-progress
+- To: paused
+- Actor: codex
+- Reason: dogfood pause proof for WI-0012
+- Event type: approval-pause
+- Current blocker: waiting for dogfood pause-resume proof
+- Next handoff: none
+- Operation ID: WI-0012-pause-proof
+- Expected from: in-progress
+- Expected version: 6
+- Version before: 6
+- Version after: 7
+- Interrupt marker: risk-review-required
+- Resume target: in-progress
+- Invoker: ./scripts/pause_work_item.sh
+- Prev event: .harness/tasks/WI-0012/history/transitions/TX-20260330T113812-WI-0012-ready-to-in-progress.md
+- Prev event hash: 708569800fa13ab38981f6e810d5ce3a35f274cab87de9bb5e1cfe29a30caa7f
+- Event hash: 3f7c1ed7d9169d5b15012c6ee70b18de645dc78f1e2ffe33bffc8596e3cbc6f0

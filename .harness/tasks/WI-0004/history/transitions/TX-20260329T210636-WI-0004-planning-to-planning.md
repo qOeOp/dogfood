@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0004
+- At: 2026-03-29 21:06:36
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: work item fields updated: Blocked by,Current blocker
+- Event type: field-update
+- Current blocker: waiting for harness process-miss compounding fix
+- Next handoff: none
+- Operation ID: WI-0004-blocked-by-process-fix
+- Expected from: planning
+- Expected version: 3
+- Version before: 3
+- Version after: 4
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0004/history/transitions/TX-20260329T210015-WI-0004-backlog-to-planning.md
+- Prev event hash: 44eb579a37f54366d7ef92c0789bbfcea0ef14a4b0cfcf5d4e8149e96c7e2231
+- Event hash: b5fc9d44326385b3154c39f94b331e6477cedb80fc75e9082318dcb3f90c6a39

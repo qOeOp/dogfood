@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0004
+- At: 2026-03-29 21:10:07
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: work item fields updated: Blocked by,Current blocker
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0004-unblock-after-WI-0005
+- Expected from: planning
+- Expected version: 4
+- Version before: 4
+- Version after: 5
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0004/history/transitions/TX-20260329T210636-WI-0004-planning-to-planning.md
+- Prev event hash: b5fc9d44326385b3154c39f94b331e6477cedb80fc75e9082318dcb3f90c6a39
+- Event hash: f1f116156a1ea3afd645cc6c8274810957209668113a70167dadf136498625a8

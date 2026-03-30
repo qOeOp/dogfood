@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0019
+- At: 2026-03-30 18:23:14
+- From: in-progress
+- To: review
+- Actor: codex
+- Reason: Bounded mutation-lock hardening slice is ready for review after targeted lease and artifact-link regressions passed.
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0019-to-review
+- Expected from: in-progress
+- Expected version: 8
+- Version before: 8
+- Version after: 9
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/complete_work_item.sh
+- Prev event: .harness/tasks/WI-0019/history/transitions/TX-20260330T175838-WI-0019-in-progress-to-in-progress.md
+- Prev event hash: a2c5fda9f16ba892b10701a53f5c89917a3827eff15016c2d1383b36778b245b
+- Event hash: ddc928ec64520c4ddc2a4cb7b7958843130be04fd1562ce883282e7d6527d4c1

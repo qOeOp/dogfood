@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0001
+- At: 2026-03-29 19:40:15
+- From: review
+- To: review
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0001-openai-source-approved
+- Expected from: review
+- Expected version: 15
+- Version before: 15
+- Version after: 16
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/set_work_item_artifact_status.sh
+- Prev event: .harness/tasks/WI-0001/history/transitions/TX-20260329T194009-WI-0001-review-to-review.md
+- Prev event hash: 285b58d2d7de03c08e3538bc2ff1346b333c026123a7eb2e388c00219285fdc7
+- Event hash: 2f6792570256f71f45f68a108313a8101c4371a940d339f394f91f1d30986d20

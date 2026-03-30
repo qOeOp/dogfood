@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0017
+- At: 2026-03-30 18:37:24
+- From: paused
+- To: paused
+- Actor: codex
+- Reason: work item fields updated: Blocked by,Current blocker
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0017-unblock-after-WI-0019
+- Expected from: paused
+- Expected version: 11
+- Version before: 11
+- Version after: 12
+- Interrupt marker: risk-review-required
+- Resume target: in-progress
+- Invoker: ./.agents/skills/harness/scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0017/history/transitions/TX-20260330T175838-WI-0017-paused-to-paused.md
+- Prev event hash: 0d1258748bd962b2d77caad65d0492437496c19fdfa9c99ba68da5f360f18b3d
+- Event hash: 2cda5cf8c103b468be8765eb42d2288d36a70a27aa92dcdc6618a303fa45093a

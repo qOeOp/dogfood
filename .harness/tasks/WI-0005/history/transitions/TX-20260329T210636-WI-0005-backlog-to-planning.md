@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0005
+- At: 2026-03-29 21:06:36
+- From: backlog
+- To: planning
+- Actor: codex
+- Reason: scope process-miss compounding fix
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0005-to-planning
+- Expected from: backlog
+- Expected version: 2
+- Version before: 2
+- Version after: 3
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0005/history/transitions/TX-20260329T210635-WI-0005-backlog-to-backlog.md
+- Prev event hash: c6fff794d23086c5ed5374f04bf483e4bc36785a7cb114de4c1b8e7b2d6b2551
+- Event hash: 923528761a13d5f133e2c09a107d1cd3d26b42fb929374717505d196000ae6d3

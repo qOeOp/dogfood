@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-29 23:49:15
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: work item fields updated: Why it matters,Decision needed
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260329T234915-11280-WI-0010-update-fields
+- Expected from: planning
+- Expected version: 7
+- Version before: 7
+- Version after: 8
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260329T234915-WI-0010-planning-to-planning.md
+- Prev event hash: 4b37eab20637b2aa53278f50085adfd04cedf6d9b608a6cc365bfe80c6b6bfa2
+- Event hash: 746d9deae681376ec0b85824fc89893fe7f12f92ea8cb91c3f619d2beb510ebb

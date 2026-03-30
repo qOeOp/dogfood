@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0007
+- At: 2026-03-29 21:34:08
+- From: planning
+- To: ready
+- Actor: codex
+- Reason: ready compounding boundary fix
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0007-to-ready
+- Expected from: planning
+- Expected version: 3
+- Version before: 3
+- Version after: 4
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0007/history/transitions/TX-20260329T213407-WI-0007-backlog-to-planning.md
+- Prev event hash: 32e6c4858a6b64cb21c78ca6c178ae39e20cec7cdd20eed7310454af0dd08e64
+- Event hash: 79ce19b59a855b57d8ec4e392ca070dfb93fc0812214ce9b3c1293f248d58cea

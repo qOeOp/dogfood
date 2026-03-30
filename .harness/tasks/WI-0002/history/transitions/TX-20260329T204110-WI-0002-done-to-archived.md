@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0002
+- At: 2026-03-29 20:41:10
+- From: done
+- To: archived
+- Actor: codex
+- Reason: accepted slice archived after closeout checkpoint
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0002-archive
+- Expected from: done
+- Expected version: 18
+- Version before: 18
+- Version after: 19
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0002/history/transitions/TX-20260329T204110-WI-0002-done-to-done.md
+- Prev event hash: 757843714c09235d563a0f8911c1df2b5684d10e09e5d682c5a3a8be8305071c
+- Event hash: 1dc561b4d4e79421f2d3232035506468c5c2d867c46d9032606ff12cdbf8ef71

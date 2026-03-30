@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0002
+- At: 2026-03-29 20:29:59
+- From: planning
+- To: ready
+- Actor: codex
+- Reason: Failure-writeback slice defined; ready for implementation.
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: ready -> implementation
+- Operation ID: WI-0002-to-ready
+- Expected from: planning
+- Expected version: 5
+- Version before: 5
+- Version after: 6
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0002/history/transitions/TX-20260329T202949-WI-0002-planning-to-planning.md
+- Prev event hash: 4f1ef26a74da0f16b42c009224f18fb9e2658fdb385b73dda1232c50101357a9
+- Event hash: 19e6e34302d46dbcd6dcd4cfa2d4bf711514e8b504c2cbbc6ec5bbe26112f91f

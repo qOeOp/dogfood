@@ -1,0 +1,21 @@
+# Harness Runtime
+
+- Runtime mode: minimum-core
+- Contract: `references/contracts/task-record-runtime-tree-v2.toml`
+- Purpose: consumer runtime for resumable task tracking and reviewable task-local artifacts
+- Harness-owned surface: `.harness/`
+- Optional support root: `.harness/runtime/` for tool-owned caches and isolated runtime support state
+- Durable support state under `.harness/runtime/` must carry explicit schema / format version
+- Cross-version restore of runtime support state must migrate or fail closed
+- Canonical task truth: `.harness/tasks/<task-id>/task.md`
+- Long-running feature or acceptance tracking may use task-local `Acceptance Ledger` attachments
+- Active task claims should carry assignee, worktree, and renewable claim-expiry metadata in `task.md`
+- Runtime mutation locks under `.harness/locks/` should carry owner + lease-expiry metadata
+- Long-running execution should record explicit budget / stop boundary in task recovery or a linked artifact
+- Interrupt / resume is checkpoint-relative re-entry, not instruction-pointer continuation
+- Async wakeups from webhook / queue / callback should assume at-least-once delivery and carry dedupe / idempotency semantics
+- Provider background / pollable transport may depend on provider-side stored state; treat it as transport state with retention / ZDR boundaries, not canonical task truth
+- Auto-injected project memory or subagent memory is not canonical task truth; durable facts must fall back to task records or task-local artifacts
+- Built-in tracing defaults require explicit capture / redaction / disable policy, not vendor-default trust
+- Tool / approval / external-evidence provenance should stay explicit in recovery artifacts or traces
+- Skill installation path, provider config, and provider entry files remain user-owned and out of scope

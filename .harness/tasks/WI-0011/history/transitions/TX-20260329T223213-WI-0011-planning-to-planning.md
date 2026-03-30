@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0011
+- At: 2026-03-29 22:32:13
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260329T223213-30974-WI-0011-link-artifact
+- Expected from: planning
+- Expected version: 3
+- Version before: 3
+- Version after: 4
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0011/history/transitions/TX-20260329T223206-WI-0011-backlog-to-planning.md
+- Prev event hash: 227081d9c68bb559c89b154a8fc838f20f915920021bb6a61991a47da75a59d7
+- Event hash: bb95a62fab08698dbe4560cf4e9bb8c209d33649751ec5218711fa4086ddeaa0

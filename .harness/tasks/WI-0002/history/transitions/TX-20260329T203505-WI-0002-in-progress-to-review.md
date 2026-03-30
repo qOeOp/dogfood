@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0002
+- At: 2026-03-29 20:35:05
+- From: in-progress
+- To: review
+- Actor: codex
+- Reason: task-scoped failure writeback implemented and validated
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0002-review
+- Expected from: in-progress
+- Expected version: 12
+- Version before: 12
+- Version after: 13
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/complete_work_item.sh
+- Prev event: .harness/tasks/WI-0002/history/transitions/TX-20260329T203505-WI-0002-in-progress-to-in-progress.md
+- Prev event hash: 69188c2a5279e2709f32772802df8dde9b049ee3f0d9cffde5200c2923f8c1fb
+- Event hash: 093c2a100f78bb3d44719a825215ac37631a95076206ae8851b2cc64cc14ca10

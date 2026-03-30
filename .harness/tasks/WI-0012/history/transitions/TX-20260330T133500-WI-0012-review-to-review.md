@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0012
+- At: 2026-03-30 13:35:00
+- From: review
+- To: review
+- Actor: codex
+- Reason: work item fields updated: Review status,Acceptance status,Decision status
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0012-approve-review
+- Expected from: review
+- Expected version: 12
+- Version before: 12
+- Version after: 13
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0012/history/transitions/TX-20260330T132927-WI-0012-review-to-review-1.md
+- Prev event hash: 84871233653c6f078532639bf9fa6bec85ed44e7d6811eed6c388c9741f4c262
+- Event hash: e9e930b9528ee5b93bc5c3621668c68bc1e5c894eaa0702d6c44aab8c8b206c8

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0004
+- At: 2026-03-29 22:14:56
+- From: in-progress
+- To: review
+- Actor: codex
+- Reason: ready for acceptance review
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0004-to-review
+- Expected from: in-progress
+- Expected version: 13
+- Version before: 13
+- Version after: 14
+- Interrupt marker: none
+- Resume target: none
+- Invoker: automation:slef-evolution
+- Prev event: .harness/tasks/WI-0004/history/transitions/TX-20260329T221455-WI-0004-in-progress-to-in-progress.md
+- Prev event hash: 3e127089f3b6165b41edb71673d12ed3fd6d0b693e73c95dc65bdc2b85c0a9bf
+- Event hash: f10327d813bd32064b0a610187e2a001ef41e171b44d130c0886bc662e4fbee9

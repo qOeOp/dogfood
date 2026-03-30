@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0009
+- At: 2026-03-29 21:47:04
+- From: backlog
+- To: backlog
+- Actor: codex
+- Reason: work item fields updated: Owner,Objective,Ready criteria,Done criteria,Required artifacts,Current stage owner,Current stage role,Why it matters,Decision needed
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260329T214704-38686-WI-0009-update-fields
+- Expected from: backlog
+- Expected version: 2
+- Version before: 2
+- Version after: 3
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0009/history/transitions/TX-20260329T214630-WI-0009-backlog-to-backlog.md
+- Prev event hash: 9e9ea915dfe5a8cc21067c022ae38a212a8bfde46ffff4f2f5f2561a52d677b1
+- Event hash: d76ab94a1f793b78e7b1ba6599bef592ce876632fbe1c5f8c7049f23afd7441d

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0017
+- At: 2026-03-30 17:46:58
+- From: ready
+- To: in-progress
+- Actor: codex
+- Reason: execution started via ./.agents/skills/harness/scripts/start_work_item.sh
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260330T174658-65590-WI-0017-start
+- Expected from: ready
+- Expected version: 5
+- Version before: 5
+- Version after: 6
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/work_item_ctl.sh
+- Prev event: .harness/tasks/WI-0017/history/transitions/TX-20260330T174654-WI-0017-planning-to-ready.md
+- Prev event hash: d5c116ce0398e2efdd64734c45b4c05df62ff7eb464611687feeab571920095c
+- Event hash: eea91487a53f8466b66d00c177176d0c2e564e23702973a3c958ea584ed43f19

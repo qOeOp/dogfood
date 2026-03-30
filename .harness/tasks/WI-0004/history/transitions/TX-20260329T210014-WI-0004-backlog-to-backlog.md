@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0004
+- At: 2026-03-29 21:00:14
+- From: backlog
+- To: backlog
+- Actor: codex
+- Reason: work item fields updated: Priority,Objective,Ready criteria,Done criteria,Why it matters,Decision needed,Decision status
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0004-seed-fields
+- Expected from: backlog
+- Expected version: 1
+- Version before: 1
+- Version after: 2
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0004/history/transitions/TX-20260329T210001-WI-0004-none-to-backlog.md
+- Prev event hash: df67ad028f94871d9a2da3f6a6dc66b41696238f5e07d4ee3844f744f5dd8810
+- Event hash: 37cfd808f09df8b80196a88b3e3fb3757f94005ae5cfbc1993b0d69a13180d27

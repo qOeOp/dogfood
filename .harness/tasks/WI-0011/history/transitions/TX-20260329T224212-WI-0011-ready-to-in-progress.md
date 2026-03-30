@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0011
+- At: 2026-03-29 22:42:12
+- From: ready
+- To: in-progress
+- Actor: codex
+- Reason: execute explicit-start concurrency slice
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260329T224212-29181-WI-0011-start
+- Expected from: ready
+- Expected version: 6
+- Version before: 6
+- Version after: 7
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/start_work_item.sh
+- Prev event: .harness/tasks/WI-0011/history/transitions/TX-20260329T224211-WI-0011-planning-to-ready.md
+- Prev event hash: 8565200d4f2320c430563a0a4710e4cecbe9fabab9b5fd5b17c641f68fe3381b
+- Event hash: 362834bfa77503c4f4b324b9cbfe9e1c97c5b39340c618d59dfec6f447671efb

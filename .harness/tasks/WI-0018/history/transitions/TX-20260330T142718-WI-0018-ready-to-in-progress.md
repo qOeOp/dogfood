@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0018
+- At: 2026-03-30 14:27:18
+- From: ready
+- To: in-progress
+- Actor: codex
+- Reason: implementation started for high-level review acceptance controller
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0018-start
+- Expected from: ready
+- Expected version: 4
+- Version before: 4
+- Version after: 5
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/start_work_item.sh
+- Prev event: .harness/tasks/WI-0018/history/transitions/TX-20260330T142324-WI-0018-planning-to-ready.md
+- Prev event hash: 55e9db1412252f0ff5793ef278650e578c886680c83587a334bfa750955fa380
+- Event hash: 847bf04c3611b5f8563a241086edacddeaea81aa3910c54bd9c22758135405f5

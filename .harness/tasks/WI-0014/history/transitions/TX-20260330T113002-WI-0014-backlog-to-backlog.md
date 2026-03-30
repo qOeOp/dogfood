@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0014
+- At: 2026-03-30 11:30:02
+- From: backlog
+- To: backlog
+- Actor: codex
+- Reason: work item fields updated: Objective,Ready criteria,Done criteria,Why it matters,Decision needed
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0014-seed-draft
+- Expected from: backlog
+- Expected version: 1
+- Version before: 1
+- Version after: 2
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0014/history/transitions/TX-20260330T113002-WI-0014-none-to-backlog.md
+- Prev event hash: 53c7a12e43edd9515ed9a32bb02a84bc5be0bfd4243fb60dd24b8d35433ae704
+- Event hash: 4ca9d36af56945f958e4480add82e687a83e6cebb830815217ec0640e15f28d8

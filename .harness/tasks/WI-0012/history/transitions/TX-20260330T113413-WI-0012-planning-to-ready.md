@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0012
+- At: 2026-03-30 11:34:13
+- From: planning
+- To: ready
+- Actor: codex
+- Reason: ready boundary reached after narrowing claim and pause-resume implementation slice
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0012-planning-to-ready
+- Expected from: planning
+- Expected version: 4
+- Version before: 4
+- Version after: 5
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0012/history/transitions/TX-20260330T113034-WI-0012-planning-to-planning.md
+- Prev event hash: d73e7cf4f0adaac0919eca1626881ba920b54ca9aad8c66cb6435aaa21aa97f5
+- Event hash: 7e93fb2211c149f3afa959f1ea82661c466ab73feb36bcbffdecd67324a6c8ed

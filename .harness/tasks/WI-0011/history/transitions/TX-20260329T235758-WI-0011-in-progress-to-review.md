@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0011
+- At: 2026-03-29 23:57:58
+- From: in-progress
+- To: review
+- Actor: codex
+- Reason: bounded explicit-start concurrency regression passed in a fresh fixture; broad Playwright probe remains separate
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260329T235758-41813-WI-0011-to-review
+- Expected from: in-progress
+- Expected version: 14
+- Version before: 14
+- Version after: 15
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/complete_work_item.sh
+- Prev event: .harness/tasks/WI-0011/history/transitions/TX-20260329T235758-WI-0011-in-progress-to-in-progress.md
+- Prev event hash: 964ea285f13b573c30eab8209f279342384789862956f08494e7c9d891abe4a8
+- Event hash: 2f1e98682846c4d78676105180a4ca0bbf71f8903a48e0d8511675f1ec21d179

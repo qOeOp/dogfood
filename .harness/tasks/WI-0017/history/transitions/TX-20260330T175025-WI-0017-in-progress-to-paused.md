@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0017
+- At: 2026-03-30 17:50:25
+- From: in-progress
+- To: paused
+- Actor: codex
+- Reason: Pause WI-0017 until work item mutation locks stop dropping concurrent task-truth updates.
+- Event type: approval-pause
+- Current blocker: blocked by WI-0019 ownership-safe mutation lock fix
+- Next handoff: none
+- Operation ID: OP-20260330T175025-71930-WI-0017-in-progress-to-paused
+- Expected from: in-progress
+- Expected version: 9
+- Version before: 9
+- Version after: 10
+- Interrupt marker: risk-review-required
+- Resume target: in-progress
+- Invoker: ./.agents/skills/harness/scripts/pause_work_item.sh
+- Prev event: .harness/tasks/WI-0017/history/transitions/TX-20260330T174729-WI-0017-in-progress-to-in-progress.md
+- Prev event hash: 13453c5e092b5f45c11f1c28a8ad89ee42124e8975147bf7211598d00c96f721
+- Event hash: 9052986188dd468377d2ff19ff03a63fb0833ff1afbfb1f377c539fadf71ac3f

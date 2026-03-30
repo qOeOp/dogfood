@@ -1,0 +1,43 @@
+# Process Audit
+
+- Linked work items: WI-0009
+
+- Date: 2026-03-29
+- Owner: Workflow & Automation Lead
+- Scope: why harness entropy reduction currently feels ineffective in the dogfood consumer runtime
+- Signals reviewed:
+  - direct user feedback that recent iterations look like continuous `md` / `sh` churn without visible cleanup
+  - current source audit output showing `audit_entropy_budget.sh` passes in a `saturated` state with zero line headroom
+  - current consumer audit output showing `run_surface_diagnostic.sh --mode consumer` resolves back to the source repo instead of the real dogfood runtime
+  - recent harness commit history showing heavy README / contract / validator rewrites with limited net surface reduction
+  - external agent-engineering guidance from OpenAI, Anthropic, LangGraph, and Microsoft on context management, cleanup cadence, and scoped memory
+- Repeated frictions:
+  - users experience visible documentation and script churn but cannot see a corresponding subtractive loop
+  - a passing entropy audit can still mask zero headroom and high rewrite churn
+  - cadence documents describe weekly and monthly audits, but no mechanical controller ensures those audits become durable artifacts or follow-up work
+  - the current budget focuses on size ceilings, not on semantic duplication, churn intensity, or broken runtime audit paths
+- Cross-task handoff failures:
+  - WI-0005 and WI-0007 improved compounding trigger wording, but they did not turn entropy handling into an always-on controller
+  - source-repo entropy expectations did not carry through into a trustworthy consumer-runtime audit path
+  - user-reported dissatisfaction surfaced before any task-local surface-audit artifact existed in this dogfood runtime
+- Candidate root causes:
+  - the current system is a passive gate, not an active cleanup engine
+  - owner and cadence live mostly in prose instead of in triggered task creation or scheduled execution
+  - consumer/source path detection is wrong for at least one critical audit entrypoint
+  - no typed survivor-disposition output is required when source changes touch docs, scripts, or contracts
+  - subagent delegation is currently framed as optional context isolation, not as a bounded support mechanism for cleanup work
+- Proposed experiments:
+  - patch consumer surface-diagnostic routing so dogfood audits observe the real `.harness/` state
+  - require a diff-scoped survivor-disposition artifact whenever source changes touch docs / scripts / contracts while headroom is zero
+  - promote zero-headroom saturation from an informational state into a compaction-triggered workflow, even before formal breach
+  - add churn metrics to the entropy audit, such as trailing commit touch volume on README / contracts / validators
+  - pilot a narrow sidecar auditor that only produces merge / archive / delete candidates, rather than making subagents the cleanup authority
+- Risks of change:
+  - over-automated cleanup can generate noisy work items or low-value refactor PRs
+  - mandatory survivor artifacts may slow down small control-surface fixes if the shape is too heavy
+  - adding subagents without a tight contract can multiply surfaces instead of reducing them
+- Recommendation:
+  - treat the current setup as a useful but incomplete first layer
+  - fix the consumer audit path first
+  - then add mandatory survivor-disposition outputs and compaction triggering at zero headroom
+  - only after those two controls are working should harness experiment with subagent-assisted cleanup

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-30 17:21:05
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260330T172105-42978-WI-0010-link-artifact
+- Expected from: in-progress
+- Expected version: 13
+- Version before: 13
+- Version after: 14
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260330T171830-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: faaea8cffc51822a14d38aff0f054d1afe4d455431da042a36388a005f6cff4a
+- Event hash: d0464c6b024240be57d641afd34a4850f7cf61cb535befdd8c7e8b02d7f7b2df

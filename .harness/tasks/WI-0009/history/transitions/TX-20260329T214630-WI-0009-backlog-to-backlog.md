@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0009
+- At: 2026-03-29 21:46:30
+- From: backlog
+- To: backlog
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260329T214630-37751-WI-0009-link-artifact
+- Expected from: backlog
+- Expected version: 1
+- Version before: 1
+- Version after: 2
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/new_research.sh
+- Prev event: .harness/tasks/WI-0009/history/transitions/TX-20260329T214622-WI-0009-none-to-backlog.md
+- Prev event hash: 8e86a104fc2117db198b2f0b0c21044db25ecd596c2b8bcd79d1be5cedbc0ed7
+- Event hash: 9e9ea915dfe5a8cc21067c022ae38a212a8bfde46ffff4f2f5f2561a52d677b1

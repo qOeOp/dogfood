@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0019
+- At: 2026-03-30 17:50:52
+- From: planning
+- To: ready
+- Actor: codex
+- Reason: Promote WI-0019 to ready because the mutation-lock corruption bug is reproduced and scoped.
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0019-planning-to-ready
+- Expected from: planning
+- Expected version: 3
+- Version before: 3
+- Version after: 4
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0019/history/transitions/TX-20260330T175047-WI-0019-backlog-to-planning.md
+- Prev event hash: 26fa2dee11488eb211b2ca7c97fe7c7bae444a1ca96da1c7204b2f70ede01515
+- Event hash: c60e091fded33b96bb6a9cad53c22daeccdaaa04fbce6f6c50b125f37510820d

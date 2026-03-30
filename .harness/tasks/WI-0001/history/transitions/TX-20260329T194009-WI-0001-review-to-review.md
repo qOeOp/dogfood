@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0001
+- At: 2026-03-29 19:40:09
+- From: review
+- To: review
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0001-anthropic-source-approved
+- Expected from: review
+- Expected version: 14
+- Version before: 14
+- Version after: 15
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/set_work_item_artifact_status.sh
+- Prev event: .harness/tasks/WI-0001/history/transitions/TX-20260329T194002-WI-0001-review-to-review.md
+- Prev event hash: fec99dd7bca514a24b2eba8030b7355c0db0221ab2748b49e58c55f91bf7eba8
+- Event hash: 285b58d2d7de03c08e3538bc2ff1346b333c026123a7eb2e388c00219285fdc7

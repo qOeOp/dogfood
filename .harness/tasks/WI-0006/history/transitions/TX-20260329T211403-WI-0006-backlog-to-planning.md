@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0006
+- At: 2026-03-29 21:14:03
+- From: backlog
+- To: planning
+- Actor: codex
+- Reason: transition-obligation slice planning
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: planning -> implementation
+- Operation ID: WI-0006-to-planning
+- Expected from: backlog
+- Expected version: 2
+- Version before: 2
+- Version after: 3
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0006/history/transitions/TX-20260329T211350-WI-0006-backlog-to-backlog.md
+- Prev event hash: ffa7d9c065b9638e3001c16cf55da07b8cbb64d3857f9c5a3dd9451cff25e9f0
+- Event hash: 8eaaaf4078f0475737c32a8c27a3a2d5cecce9c412ba66933521c14c199344b7

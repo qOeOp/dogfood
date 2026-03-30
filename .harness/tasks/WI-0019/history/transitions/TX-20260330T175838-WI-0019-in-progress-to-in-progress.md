@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0019
+- At: 2026-03-30 17:58:38
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: work item fields updated: Blocks
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0019-blocks-WI-0017
+- Expected from: in-progress
+- Expected version: 7
+- Version before: 7
+- Version after: 8
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0019/history/transitions/TX-20260330T175707-WI-0019-in-progress-to-in-progress.md
+- Prev event hash: 2fbfd991e69f3d264b8060ddcf13c1fcd106bb9693d91cd445ef0aa475c2fae8
+- Event hash: a2c5fda9f16ba892b10701a53f5c89917a3827eff15016c2d1383b36778b245b

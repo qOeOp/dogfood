@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0002
+- At: 2026-03-29 20:15:56
+- From: backlog
+- To: backlog
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: planning -> control-surface design
+- Operation ID: WI-0002-link-process-audit
+- Expected from: backlog
+- Expected version: 2
+- Version before: 2
+- Version after: 3
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0002/history/transitions/TX-20260329T201544-WI-0002-backlog-to-backlog.md
+- Prev event hash: c8bec9bad3bef0029aa655eb9cc8269da295ebc38fbb5564eb2c8bc1db0f3599
+- Event hash: d6836fbb0f5c95ae31bd2a912a80912631c27d12bdbd442644d94c22a43b86ba

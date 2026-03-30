@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0005
+- At: 2026-03-29 21:07:26
+- From: ready
+- To: in-progress
+- Actor: codex
+- Reason: implement process-miss compounding fix
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0005-to-in-progress
+- Expected from: ready
+- Expected version: 4
+- Version before: 4
+- Version after: 5
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0005/history/transitions/TX-20260329T210726-WI-0005-planning-to-ready.md
+- Prev event hash: 923ddba6573ee6d86337e04a8dbde42ab600b3c4d70df774334b0e9a135565c6
+- Event hash: 3a2aa9a969a9045ab23c51d4fffe1077736ed69f364ca98c1ccb5423124f3e72

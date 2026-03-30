@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0012
+- At: 2026-03-30 11:46:33
+- From: paused
+- To: in-progress
+- Actor: codex
+- Reason: dogfood resume proof for WI-0012
+- Event type: resume
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0012-resume-proof
+- Expected from: paused
+- Expected version: 7
+- Version before: 7
+- Version after: 8
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/resume_work_item.sh
+- Prev event: .harness/tasks/WI-0012/history/transitions/TX-20260330T114633-WI-0012-in-progress-to-paused.md
+- Prev event hash: 3f7c1ed7d9169d5b15012c6ee70b18de645dc78f1e2ffe33bffc8596e3cbc6f0
+- Event hash: 36b1d91cec080d13059a8f1566445e2cd8904d3adb26eb283cce4a099015f770

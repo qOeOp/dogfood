@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0008
+- At: 2026-03-29 21:39:35
+- From: ready
+- To: in-progress
+- Actor: codex
+- Reason: implement compounding target semantics
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0008-to-in-progress
+- Expected from: ready
+- Expected version: 4
+- Version before: 4
+- Version after: 5
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0008/history/transitions/TX-20260329T213935-WI-0008-planning-to-ready.md
+- Prev event hash: 7c9a4b8d54482b5bb1b6c9e0e76dd94542904627901ce047b03796e58b2cf6d5
+- Event hash: a1c6a73f6deb2ff42b6d85dc4050a0e1cb4150281856cb060882292045a2d72b

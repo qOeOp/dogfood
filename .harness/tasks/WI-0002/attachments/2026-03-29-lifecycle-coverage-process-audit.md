@@ -1,0 +1,35 @@
+# Process Audit
+
+- Linked work items: WI-0002
+
+- Date: 2026-03-29
+- Owner: codex
+- Scope: audit the real lifecycle coverage exercised by `WI-0001` and the skipped Playwright failure path during this dogfood self-evolution run
+- Signals reviewed:
+  - `WI-0001` header, recovery, closure, checkpoint, and transition history
+  - current runtime inventory showing only one task in the consumer repo
+  - repeated `mcp__playwright__browser_navigate` failures that opened blank tabs and exited
+  - local Chrome profile state under `/Users/vx/Library/Caches/ms-playwright/mcp-chrome`
+  - live Chrome processes already holding the shared Playwright profile and lock files
+- Repeated frictions:
+  - a browser-tool failure was observed but not immediately converted into task truth or a follow-up issue
+  - the repo advertises a broad lifecycle surface, but the real dogfood run mostly covered a happy path from `backlog` to `done`
+  - `WI-0001` now points to `Next gate: archive`, yet no high-level operator flow or explicit archive decision was exercised
+- Cross-task handoff failures:
+  - there were no real cross-task handoffs because the runtime had only one task, which means multi-task routing and blocked-by coverage remain effectively untested
+  - post-acceptance compounding concluded `no-change`, but that was driven by lack of trend data rather than evidence that the lifecycle is comprehensively exercised
+- Candidate root causes:
+  - the current closeout flow allows a scoped objective to finish without separately auditing lifecycle coverage debt
+  - optional lifecycle surfaces such as `paused/resume`, `archived`, and acceptance-ledger updates are documented but have weak real-run trigger pressure
+  - tool failures during evidence collection do not automatically force a task-local note, pause, or new work item candidate
+  - the Playwright MCP browser uses a shared persistent Chrome profile, so stale or still-running profile owners can make new sessions fail immediately
+- Proposed experiments:
+  - add a post-closeout lifecycle coverage audit that can spawn one explicit follow-up work item when important surfaces remain unexercised
+  - treat terminal tool failure during evidence collection as mandatory task-local writeback instead of optional chat commentary
+  - add a dogfood validation slice for at least one `paused -> resume` path and one explicit `done -> archived` or equivalent archive-policy decision
+  - add a Playwright preflight that detects an already-owned `mcp-chrome` profile before attempting navigation
+- Risks of change:
+  - forcing every task through every lifecycle state would create fake rigor and paperwork
+  - synthetic coverage tasks can hide whether real user work actually benefits
+  - aggressive Playwright profile cleanup could kill a live user-owned browser session if ownership is not distinguished carefully
+- Recommendation: the next highest-leverage issue is not "use more features"; it is to make skipped tool failures and lifecycle coverage debt impossible to ignore, starting with Playwright profile conflict detection and an explicit archive/coverage audit boundary after `done`

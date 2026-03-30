@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0017
+- At: 2026-03-30 13:01:52
+- From: backlog
+- To: backlog
+- Actor: codex
+- Reason: work item fields updated: Owner,Current stage owner,Objective,Ready criteria,Done criteria,Why it matters,Decision needed
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0017-owner-alignment
+- Expected from: backlog
+- Expected version: 1
+- Version before: 1
+- Version after: 2
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0017/history/transitions/TX-20260330T130052-WI-0017-none-to-backlog.md
+- Prev event hash: bd37d17e900b595ef99e9c096bbfdeab438466cff621f24c425175112300642c
+- Event hash: 56297650117b2f580a47c8484b33751e1dbaba1660dc8d398b991f37d2a9f430

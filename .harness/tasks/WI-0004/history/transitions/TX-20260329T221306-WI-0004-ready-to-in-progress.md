@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0004
+- At: 2026-03-29 22:13:06
+- From: ready
+- To: in-progress
+- Actor: codex
+- Reason: explicit user continuation after profile-preflight decision
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0004-to-in-progress-direct
+- Expected from: ready
+- Expected version: 11
+- Version before: 11
+- Version after: 12
+- Interrupt marker: none
+- Resume target: none
+- Invoker: automation:slef-evolution
+- Prev event: .harness/tasks/WI-0004/history/transitions/TX-20260329T220713-WI-0004-planning-to-ready.md
+- Prev event hash: 010fe74b7b5f9f9d1557456c303d4cd1beccd5a6010b9a16d31a0a666896bfbe
+- Event hash: 4552b3ebf16743b66ecacedc89f409e0149d1024620b5193c4669b31eb97d0c3

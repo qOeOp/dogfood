@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0001
+- At: 2026-03-29 19:40:26
+- From: review
+- To: review
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0001-acceptance-brief-approved
+- Expected from: review
+- Expected version: 17
+- Version before: 17
+- Version after: 18
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/set_work_item_artifact_status.sh
+- Prev event: .harness/tasks/WI-0001/history/transitions/TX-20260329T194021-WI-0001-review-to-review.md
+- Prev event hash: ddd870a979cd86e765ac6fc6a31ff0db3fe536031f543a98a1ca727de1c68480
+- Event hash: 8febed693a7f165f146a41a03ca9b0ae34b073403abc2295e31f44f1685d435b

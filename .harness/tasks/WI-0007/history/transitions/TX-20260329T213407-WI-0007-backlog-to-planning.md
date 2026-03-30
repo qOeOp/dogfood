@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0007
+- At: 2026-03-29 21:34:07
+- From: backlog
+- To: planning
+- Actor: codex
+- Reason: scope compounding boundary fix
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0007-to-planning
+- Expected from: backlog
+- Expected version: 2
+- Version before: 2
+- Version after: 3
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0007/history/transitions/TX-20260329T213407-WI-0007-backlog-to-backlog.md
+- Prev event hash: d1a6477ffe13a71a3dd5646029abb553d66828b87aeedf59b66003281808b646
+- Event hash: 32e6c4858a6b64cb21c78ca6c178ae39e20cec7cdd20eed7310454af0dd08e64

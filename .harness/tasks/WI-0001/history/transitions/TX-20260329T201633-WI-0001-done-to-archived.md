@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0001
+- At: 2026-03-29 20:16:33
+- From: done
+- To: archived
+- Actor: codex
+- Reason: Bootstrap repair fully closed after acceptance, checkpoint, and follow-up process audit creation.
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0001-archive
+- Expected from: done
+- Expected version: 21
+- Version before: 21
+- Version after: 22
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0001/history/transitions/TX-20260329T194112-WI-0001-done-to-done.md
+- Prev event hash: af5f0281cd141d469e78b235aef794d918e6aa7b013fa3cea558c7aee3be2c6d
+- Event hash: 2dbe1a11467cadaeef150b884f035e696cd8e87d0d32f2c4e4ba9157732d5f17

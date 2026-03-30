@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0001
+- At: 2026-03-29 18:44:15
+- From: review
+- To: review
+- Actor: codex
+- Reason: work item fields updated: Next handoff
+- Event type: field-update
+- Current blocker: none
+- Next handoff: review -> acceptance
+- Operation ID: OP-20260329T184415-16521-WI-0001-update-fields
+- Expected from: review
+- Expected version: 10
+- Version before: 10
+- Version after: 11
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0001/history/transitions/TX-20260329T184308-WI-0001-in-progress-to-review.md
+- Prev event hash: 4c5102d7545639cfdf2404f28081a9620238dc8b0bcf07c13ef1cab4df7a0ad5
+- Event hash: 5ce756f23124b4fbd8347c6393c502c8af795c49dff31ec9eddebd33985c8679

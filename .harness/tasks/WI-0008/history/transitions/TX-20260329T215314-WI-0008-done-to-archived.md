@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0008
+- At: 2026-03-29 21:53:14
+- From: done
+- To: archived
+- Actor: codex
+- Reason: archived after accepted compounding target semantics
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0008-to-archived
+- Expected from: done
+- Expected version: 11
+- Version before: 11
+- Version after: 12
+- Interrupt marker: none
+- Resume target: none
+- Invoker: automation:slef-evolution
+- Prev event: .harness/tasks/WI-0008/history/transitions/TX-20260329T215313-WI-0008-done-to-done.md
+- Prev event hash: 1bed5ac20218378d6b896ad618c2944ef2a7252d2026355feab7c0d19032f374
+- Event hash: 87c990e97c56b8578dc0484a11fdb69558f9d7e694ec769a6159ffb140095be2

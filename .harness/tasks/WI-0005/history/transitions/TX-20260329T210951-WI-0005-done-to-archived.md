@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0005
+- At: 2026-03-29 21:09:51
+- From: done
+- To: archived
+- Actor: codex
+- Reason: accepted process-miss compounding trigger fix archived after closeout checkpoint
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0005-archive
+- Expected from: done
+- Expected version: 12
+- Version before: 12
+- Version after: 13
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0005/history/transitions/TX-20260329T210951-WI-0005-done-to-done.md
+- Prev event hash: 9f7a60d5fc0b52469ff69ebf4db8e512d0a082356c5311545573fa6b7a8f4428
+- Event hash: b8f61a1fd4a6ac8c6cd16120db76c493aeccf552fb0aabe18887fafa9984c2f8

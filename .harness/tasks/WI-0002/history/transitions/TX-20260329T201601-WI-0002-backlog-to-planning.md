@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0002
+- At: 2026-03-29 20:16:01
+- From: backlog
+- To: planning
+- Actor: codex
+- Reason: Process audit captured; moving lifecycle coverage gap to planning.
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: planning -> control-surface design
+- Operation ID: WI-0002-to-planning
+- Expected from: backlog
+- Expected version: 3
+- Version before: 3
+- Version after: 4
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0002/history/transitions/TX-20260329T201556-WI-0002-backlog-to-backlog.md
+- Prev event hash: d6836fbb0f5c95ae31bd2a912a80912631c27d12bdbd442644d94c22a43b86ba
+- Event hash: 839fd52ae01ad15ad3bad2074ff9c26e94dbaa4c4e17363fe06372bf58396428

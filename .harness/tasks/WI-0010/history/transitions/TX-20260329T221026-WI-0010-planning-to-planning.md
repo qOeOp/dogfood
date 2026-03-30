@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-29 22:10:26
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: work item fields updated: Owner,Current stage owner
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260329T221026-30207-WI-0010-update-fields
+- Expected from: planning
+- Expected version: 3
+- Version before: 3
+- Version after: 4
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260329T220640-WI-0010-backlog-to-planning.md
+- Prev event hash: 5d6fad2e98178282f2b374e3d067f2500e7084c07cb486fc1994ee529e02d3b8
+- Event hash: 6a55bc01da0a6d29baac4d4179eb1130f5846c257263837f21f27ba9667ec624

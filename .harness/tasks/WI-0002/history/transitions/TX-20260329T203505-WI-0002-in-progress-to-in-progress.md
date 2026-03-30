@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0002
+- At: 2026-03-29 20:35:05
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: work item fields updated: Decision status,Next handoff
+- Event type: field-update
+- Current blocker: none
+- Next handoff: review -> acceptance
+- Operation ID: WI-0002-approve-slice-decision
+- Expected from: in-progress
+- Expected version: 11
+- Version before: 11
+- Version after: 12
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0002/history/transitions/TX-20260329T203504-WI-0002-in-progress-to-in-progress.md
+- Prev event hash: b5b9c12da05d45a6f84b54a2e6e2482233e66255ca2bfac43ec6a8ccd9a92180
+- Event hash: 69188c2a5279e2709f32772802df8dde9b049ee3f0d9cffde5200c2923f8c1fb

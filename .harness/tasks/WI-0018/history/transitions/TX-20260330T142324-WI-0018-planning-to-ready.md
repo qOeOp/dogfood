@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0018
+- At: 2026-03-30 14:23:24
+- From: planning
+- To: ready
+- Actor: codex
+- Reason: review acceptance controller scope and entrypoint are defined
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0018-ready
+- Expected from: planning
+- Expected version: 3
+- Version before: 3
+- Version after: 4
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0018/history/transitions/TX-20260330T141921-WI-0018-backlog-to-planning.md
+- Prev event hash: 162dc36e8798d109ea2627cbfee96d9a56c0bfc6f6a7a7d251be17b4a9d13f53
+- Event hash: 55e9db1412252f0ff5793ef278650e578c886680c83587a334bfa750955fa380

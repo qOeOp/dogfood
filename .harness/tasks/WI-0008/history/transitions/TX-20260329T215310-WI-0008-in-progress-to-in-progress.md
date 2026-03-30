@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0008
+- At: 2026-03-29 21:53:10
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0008-link-process-audit
+- Expected from: in-progress
+- Expected version: 5
+- Version before: 5
+- Version after: 6
+- Interrupt marker: none
+- Resume target: none
+- Invoker: automation:slef-evolution
+- Prev event: .harness/tasks/WI-0008/history/transitions/TX-20260329T213935-WI-0008-ready-to-in-progress.md
+- Prev event hash: a1c6a73f6deb2ff42b6d85dc4050a0e1cb4150281856cb060882292045a2d72b
+- Event hash: 883602432851c11bbff817da2fd6d1cf38e56fe630248b9f3123ba6843a71d29

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0008
+- At: 2026-03-29 21:39:34
+- From: backlog
+- To: planning
+- Actor: codex
+- Reason: scope compounding target semantics
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0008-to-planning
+- Expected from: backlog
+- Expected version: 2
+- Version before: 2
+- Version after: 3
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0008/history/transitions/TX-20260329T213933-WI-0008-backlog-to-backlog.md
+- Prev event hash: af8c07bd71129904be840e210ee039ff93fb31468812aa756dc6e0e039baf9ae
+- Event hash: 60558134b59ea03b69afb19888730929bcf137295be9ff7434bacad39d150cdb

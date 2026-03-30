@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0018
+- At: 2026-03-30 16:02:13
+- From: in-progress
+- To: review
+- Actor: codex
+- Reason: handoff bounded review acceptance controller for final review
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0018-to-review-retry
+- Expected from: in-progress
+- Expected version: 7
+- Version before: 7
+- Version after: 8
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/complete_work_item.sh
+- Prev event: .harness/tasks/WI-0018/history/transitions/TX-20260330T160145-WI-0018-in-progress-to-in-progress.md
+- Prev event hash: 357eef2daec4116f41537c579c0da0ff828b77205eb0ea792cf3ba347524ab60
+- Event hash: e96a8ab3ed6ed624e097060300fbedab4af897998865c142d6e6f92e5484fc68

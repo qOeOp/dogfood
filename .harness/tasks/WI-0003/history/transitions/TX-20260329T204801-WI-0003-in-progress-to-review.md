@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0003
+- At: 2026-03-29 20:48:01
+- From: in-progress
+- To: review
+- Actor: codex
+- Reason: implementation validated
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: review -> acceptance
+- Operation ID: WI-0003-review
+- Expected from: in-progress
+- Expected version: 5
+- Version before: 5
+- Version after: 6
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0003/history/transitions/TX-20260329T204441-WI-0003-ready-to-in-progress.md
+- Prev event hash: 31f29bcfe918b4547942479435669eb71cc81053b3535eacab0c0a4917a8c7d3
+- Event hash: 1afdcfd1b6b7865ba29aeb0564cf6485784b16bcbc835b18c8e2a730e0a43b7c

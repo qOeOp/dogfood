@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0018
+- At: 2026-03-30 16:52:53
+- From: done
+- To: archived
+- Actor: codex
+- Reason: archive accepted review-acceptance controller slice
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0018-archive
+- Expected from: done
+- Expected version: 12
+- Version before: 12
+- Version after: 13
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0018/history/transitions/TX-20260330T164858-WI-0018-review-to-done.md
+- Prev event hash: 440f8ada6cf9dadbc6f21991966ee7b4e0f59199254b6ba3885296a5d3ffbd28
+- Event hash: 49d96afec1a26c2192787518c57e0de2d6dc42d312f9b60fa80de28ed5732f1f

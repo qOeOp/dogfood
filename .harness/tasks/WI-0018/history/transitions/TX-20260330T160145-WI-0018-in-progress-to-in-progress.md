@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0018
+- At: 2026-03-30 16:01:45
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0018-link-acceptance-brief
+- Expected from: in-progress
+- Expected version: 6
+- Version before: 6
+- Version after: 7
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0018/history/transitions/TX-20260330T151548-WI-0018-in-progress-to-in-progress.md
+- Prev event hash: b78a9d2acd064b3e6db99346fe47d781417e83a5c12c3dea32e7de29d42563b6
+- Event hash: 357eef2daec4116f41537c579c0da0ff828b77205eb0ea792cf3ba347524ab60

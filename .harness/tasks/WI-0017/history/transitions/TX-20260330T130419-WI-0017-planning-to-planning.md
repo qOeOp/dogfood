@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0017
+- At: 2026-03-30 13:04:19
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: work item fields updated: Priority
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0017-priority-bump
+- Expected from: planning
+- Expected version: 3
+- Version before: 3
+- Version after: 4
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0017/history/transitions/TX-20260330T130152-WI-0017-backlog-to-planning.md
+- Prev event hash: 782f8c0cd72a0a10ca80fedba15205db1e201106b195583a315778b8b5acb1c2
+- Event hash: 92a59fa31ba472f5895728a0cac80d5481345648db1c4bf56a7552956cc7b7fa

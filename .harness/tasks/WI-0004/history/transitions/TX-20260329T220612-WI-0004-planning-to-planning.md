@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0004
+- At: 2026-03-29 22:06:12
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260329T220612-36525-WI-0004-link-artifact
+- Expected from: planning
+- Expected version: 6
+- Version before: 6
+- Version after: 7
+- Interrupt marker: none
+- Resume target: none
+- Invoker: automation:slef-evolution
+- Prev event: .harness/tasks/WI-0004/history/transitions/TX-20260329T220611-WI-0004-planning-to-planning.md
+- Prev event hash: 92ea85427b6e9de2ccf77c5fed210fb1ac4953dcea43ced316f0d846842c7051
+- Event hash: aa6c8a617e26893d63d927630cfc56b424718d39d166ac171ec6e2f365a9026e

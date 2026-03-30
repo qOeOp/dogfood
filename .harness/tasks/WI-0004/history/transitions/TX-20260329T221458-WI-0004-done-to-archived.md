@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0004
+- At: 2026-03-29 22:14:58
+- From: done
+- To: archived
+- Actor: codex
+- Reason: archived after accepted Playwright profile preflight slice
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0004-to-archived
+- Expected from: done
+- Expected version: 17
+- Version before: 17
+- Version after: 18
+- Interrupt marker: none
+- Resume target: none
+- Invoker: automation:slef-evolution
+- Prev event: .harness/tasks/WI-0004/history/transitions/TX-20260329T221458-WI-0004-done-to-done.md
+- Prev event hash: cefa92ee7a7e9b0d3fd17f5891ea995e5db3ebf0ba7cb08ce553571aa8a92c0b
+- Event hash: 4742e68cf640dcda49cfef1c6991c9f9c7db6152231ae4e75a11e49d4cd6823f

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0019
+- At: 2026-03-30 17:57:00
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0019-link-process-audit
+- Expected from: in-progress
+- Expected version: 5
+- Version before: 5
+- Version after: 6
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0019/history/transitions/TX-20260330T175055-WI-0019-ready-to-in-progress.md
+- Prev event hash: d3f8271ba20c59e9e373bef26fd7f39b6ea1a3f39d67f1dffb6db18bb02dce69
+- Event hash: 3eeda0a03215dbceb3b24cb5dc441f73e1765fcf73528786b05afa460513d244

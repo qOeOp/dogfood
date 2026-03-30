@@ -1,0 +1,51 @@
+# Process Audit
+
+- Linked work items: WI-0010
+
+
+- Date: 2026-03-30
+- Owner: codex
+- Scope: why the highest-leverage subtractive compaction slice this round was selector JSON-builder consolidation instead of another new controller layer
+- Signals reviewed:
+  - [`/Users/vx/WebstormProjects/dogfood/.agents/skills/harness/scripts/select_work_item.sh`](/Users/vx/WebstormProjects/dogfood/.agents/skills/harness/scripts/select_work_item.sh)
+  - [`/Users/vx/WebstormProjects/dogfood/.agents/skills/harness/scripts/lib_state.sh`](/Users/vx/WebstormProjects/dogfood/.agents/skills/harness/scripts/lib_state.sh)
+  - [`/Users/vx/WebstormProjects/dogfood/.agents/skills/harness/scripts/start_work_item.sh`](/Users/vx/WebstormProjects/dogfood/.agents/skills/harness/scripts/start_work_item.sh)
+  - [`/Users/vx/WebstormProjects/dogfood/.agents/skills/harness/scripts/open_work_item.sh`](/Users/vx/WebstormProjects/dogfood/.agents/skills/harness/scripts/open_work_item.sh)
+  - [`/Users/vx/WebstormProjects/dogfood/.agents/skills/harness/scripts/audit_entropy_budget.sh`](/Users/vx/WebstormProjects/dogfood/.agents/skills/harness/scripts/audit_entropy_budget.sh)
+  - [`/Users/vx/WebstormProjects/dogfood/.harness/tasks/WI-0005/attachments/2026-03-29-process-miss-compounding-acceptance-closeout-checkpoint.md`](/Users/vx/WebstormProjects/dogfood/.harness/tasks/WI-0005/attachments/2026-03-29-process-miss-compounding-acceptance-closeout-checkpoint.md)
+  - [`/Users/vx/WebstormProjects/dogfood/.harness/tasks/WI-0009/attachments/2026-03-29-entropy-reduction-effectiveness-process-audit.md`](/Users/vx/WebstormProjects/dogfood/.harness/tasks/WI-0009/attachments/2026-03-29-entropy-reduction-effectiveness-process-audit.md)
+  - Martin Fowler, [Refactoring](https://martinfowler.com/books/refactoring.html)
+  - arXiv, [An Empirical Study on the Impact of Code Duplication-aware Refactoring Practices on Quality Metrics](https://arxiv.org/abs/2502.04073)
+- External sensing:
+  - Fowler frames refactoring as small behavior-preserving transformations whose cumulative effect matters more than a risky broad rewrite, which supports taking a single bounded duplication slice rather than adding a new entropy-management layer.
+  - The 2025 duplication-aware refactoring study reports that removing code duplication aligns with maintainability-oriented developer intent and can improve structural quality metrics, which supports choosing shared-helper consolidation as a real quality intervention rather than cosmetic cleanup.
+- Internal sensing:
+  - `audit_entropy_budget.sh` still returns `soft-threshold` with explicit task-trigger semantics, but the live pressure remains high: `recent-distinct-active-files=80`, `pending-active-files=28`, and `new-active-files=3` saturated.
+  - The harness source repo is still broadly dirty beyond this slice, so the next move must not pretend that one local cleanup diff owns or validates the whole worktree.
+  - `select_work_item.sh` still carried a local simplified JSON object template for `selected_work_item` and `next_blocked_candidate` even though canonical builders already lived in `lib_state.sh`; this is a direct active-surface duplication hotspot.
+- Compounding effectiveness review:
+  - `WI-0005` successfully made process misses become immediate compounding triggers, but that change improved escalation semantics more than source-surface size or duplication.
+  - `WI-0009` correctly identified that entropy handling still felt ineffective and recommended triggered cleanup plus churn-aware sensing, yet today's audit shows those pressures are still active; the compounding loop has improved detection but not yet produced enough visible subtraction.
+  - Because recurrence is still visible in the current hotspot set, the highest-leverage move this round remained a net-reductive source slice, not another policy rewrite celebrating that the trigger exists.
+- Divergent hypotheses:
+  - Add another entropy-specific wrapper/controller so selector, opener, and starter all report through a new abstraction layer.
+  - Leave the hotspot alone because the shared builders already exist and the remaining duplication is only output formatting.
+  - Remove the local selector JSON templates and reuse the canonical shared builders that already carry the broader task-record schema.
+- First-principles deconstruction:
+  - The user pain is not lack of controller count; it is a growing active surface that forces repeated reading and repeated edits.
+  - The framework/runtime boundary is already strict, so the best source-repo improvement is the one that shrinks duplicated framework logic without expanding consumer runtime truth.
+  - A compaction slice is only credible if it preserves observable behavior under a real runtime path, not if it only reduces lines statically.
+- Convergence to excellence:
+  - The best slice this round was hypothesis three: reuse the canonical JSON builders inside `select_work_item.sh`.
+  - Hypothesis one would have violated the subtractive goal by adding another layer.
+  - Hypothesis two would have preserved unnecessary duplication in an already-breached active surface.
+- Validation:
+  - `cd /Users/vx/WebstormProjects/dogfood/.agents/skills/harness && ./scripts/validate_source_repo.sh` passed.
+  - `cd /Users/vx/WebstormProjects/dogfood/.agents/skills/harness && ./scripts/audit_entropy_budget.sh` passed but still reported `soft-threshold` pressure and saturated `new-active-files`.
+  - A targeted fixture smoke passed after correcting the blocked-fixture ordering: `SELECT_COMPACTION_SMOKE_OK`, covering `actionable`, `blocked`, and `empty` JSON outputs from `select_work_item.sh`.
+- Risks of change:
+  - Because the nested harness source repo already has many unrelated dirty files, a future operator could over-attribute the entire diff to this slice unless task-local artifacts keep the boundary explicit.
+  - Shared-builder reuse expands the JSON object schema returned by `select_work_item.sh`; targeted smoke passed, but any consumer depending on the older minimal object shape should still be watched in adjacent slices.
+- Recommendation:
+  - Keep `WI-0010` in the subtractive lane.
+  - Resume from the adjacent `start/open` hotspot only after treating this selector slice as a completed, validated boundary rather than a license to sweep the rest of the dirty worktree into one change.

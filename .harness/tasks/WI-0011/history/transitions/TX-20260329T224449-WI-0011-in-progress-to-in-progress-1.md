@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0011
+- At: 2026-03-29 22:44:49
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: work item fields updated: Blocked by,Current blocker,Next handoff
+- Event type: field-update
+- Current blocker: source entropy budget breached; source acceptance is blocked until WI-0010 reduces active surface below audit thresholds
+- Next handoff: entropy-compaction -> WI-0011 source acceptance
+- Operation ID: OP-20260329T224449-63075-WI-0011-update-fields
+- Expected from: in-progress
+- Expected version: 11
+- Version before: 11
+- Version after: 12
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0011/history/transitions/TX-20260329T224449-WI-0011-in-progress-to-in-progress.md
+- Prev event hash: e84d071ce6fb13acf0dc304c342ef7c5c137d112e2e20f3ca1dad094b3f8f5b2
+- Event hash: a3a01c96ebb8d513874beada87a32aecf0b8765d10600444217681822bc3ca8f

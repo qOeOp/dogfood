@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0019
+- At: 2026-03-30 17:50:47
+- From: backlog
+- To: planning
+- Actor: codex
+- Reason: Promote WI-0019 to planning after reproducing a task-truth lost-update bug during WI-0017 research artifact capture.
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0019-backlog-to-planning
+- Expected from: backlog
+- Expected version: 2
+- Version before: 2
+- Version after: 3
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0019/history/transitions/TX-20260330T175035-WI-0019-backlog-to-backlog.md
+- Prev event hash: 36f00bce3510147310d8ee7c4605dec3a00130f4685727609f9186fb8e99a960
+- Event hash: 26fa2dee11488eb211b2ca7c97fe7c7bae444a1ca96da1c7204b2f70ede01515

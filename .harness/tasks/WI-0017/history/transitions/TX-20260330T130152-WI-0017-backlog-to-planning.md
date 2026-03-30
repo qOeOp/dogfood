@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0017
+- At: 2026-03-30 13:01:52
+- From: backlog
+- To: planning
+- Actor: codex
+- Reason: task issue ledger and residual disposition controller drafted for planning
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0017-planning
+- Expected from: backlog
+- Expected version: 2
+- Version before: 2
+- Version after: 3
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0017/history/transitions/TX-20260330T130152-WI-0017-backlog-to-backlog.md
+- Prev event hash: 56297650117b2f580a47c8484b33751e1dbaba1660dc8d398b991f37d2a9f430
+- Event hash: 782f8c0cd72a0a10ca80fedba15205db1e201106b195583a315778b8b5acb1c2

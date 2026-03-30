@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0012
+- At: 2026-03-30 11:38:12
+- From: ready
+- To: in-progress
+- Actor: codex
+- Reason: execution started via ./scripts/start_work_item.sh
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260330T113812-20205-WI-0012-start
+- Expected from: ready
+- Expected version: 5
+- Version before: 5
+- Version after: 6
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/start_work_item.sh
+- Prev event: .harness/tasks/WI-0012/history/transitions/TX-20260330T113413-WI-0012-planning-to-ready.md
+- Prev event hash: 7e93fb2211c149f3afa959f1ea82661c466ab73feb36bcbffdecd67324a6c8ed
+- Event hash: 708569800fa13ab38981f6e810d5ce3a35f274cab87de9bb5e1cfe29a30caa7f

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0012
+- At: 2026-03-30 11:49:49
+- From: in-progress
+- To: review
+- Actor: codex
+- Reason: review claim visibility and pause-resume proof slice
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0012-review
+- Expected from: in-progress
+- Expected version: 9
+- Version before: 9
+- Version after: 10
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/complete_work_item.sh
+- Prev event: .harness/tasks/WI-0012/history/transitions/TX-20260330T114642-WI-0012-in-progress-to-in-progress.md
+- Prev event hash: b3f83261e9b21f5aa751b6a48e1784a81a5a4a33dddb6d790dd7607d8042e641
+- Event hash: 7be18de1fb1b8bca68de30dd5f7d18aa21dda429931f936eb35835dcb8d08ce3

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0001
+- At: 2026-03-29 18:36:23
+- From: backlog
+- To: planning
+- Actor: codex
+- Reason: Bootstrap gap triage completed; moving to planning.
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: planning -> research
+- Operation ID: OP-20260329T183623-56358-WI-0001-backlog-to-planning
+- Expected from: backlog
+- Expected version: 2
+- Version before: 2
+- Version after: 3
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0001/history/transitions/TX-20260329T183623-WI-0001-backlog-to-backlog.md
+- Prev event hash: 958514182c0f9b150c6f9ee7da1ca48fb710b07f81de44201c0df26a6e6595ea
+- Event hash: d2478928fc412449f337a5d51226acdc47493a42e6f72e71ef4e248525f3c4c4

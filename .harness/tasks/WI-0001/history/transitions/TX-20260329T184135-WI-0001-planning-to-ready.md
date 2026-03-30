@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0001
+- At: 2026-03-29 18:41:35
+- From: planning
+- To: ready
+- Actor: codex
+- Reason: Bootstrap evidence captured; ready for implementation.
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: planning -> implementation
+- Operation ID: OP-20260329T184135-97309-WI-0001-planning-to-ready
+- Expected from: planning
+- Expected version: 7
+- Version before: 7
+- Version after: 8
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0001/history/transitions/TX-20260329T183729-WI-0001-planning-to-planning.md
+- Prev event hash: 98696e6c8c88a70f7a09248194236932a424df899699877d84626abd9f57cccc
+- Event hash: 2ee1aae5ddffb61ab1847a6188cf0e3e77e1711b182e040970c5b252ad13a24a

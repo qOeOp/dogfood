@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0004
+- At: 2026-03-29 21:00:15
+- From: backlog
+- To: planning
+- Actor: codex
+- Reason: capture next bounded Playwright issue
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0004-to-planning
+- Expected from: backlog
+- Expected version: 2
+- Version before: 2
+- Version after: 3
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0004/history/transitions/TX-20260329T210014-WI-0004-backlog-to-backlog.md
+- Prev event hash: 37cfd808f09df8b80196a88b3e3fb3757f94005ae5cfbc1993b0d69a13180d27
+- Event hash: 44eb579a37f54366d7ef92c0789bbfcea0ef14a4b0cfcf5d4e8149e96c7e2231

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0002
+- At: 2026-03-29 20:29:49
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: work item fields updated: Objective,Ready criteria,Done criteria,Current stage owner,Decision needed,Next handoff
+- Event type: field-update
+- Current blocker: none
+- Next handoff: ready -> implementation
+- Operation ID: WI-0002-narrow-scope
+- Expected from: planning
+- Expected version: 4
+- Version before: 4
+- Version after: 5
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0002/history/transitions/TX-20260329T201601-WI-0002-backlog-to-planning.md
+- Prev event hash: 839fd52ae01ad15ad3bad2074ff9c26e94dbaa4c4e17363fe06372bf58396428
+- Event hash: 4f1ef26a74da0f16b42c009224f18fb9e2658fdb385b73dda1232c50101357a9

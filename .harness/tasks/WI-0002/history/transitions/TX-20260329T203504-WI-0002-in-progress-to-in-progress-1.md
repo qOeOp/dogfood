@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0002
+- At: 2026-03-29 20:35:04
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: ready -> implementation
+- Operation ID: WI-0002-validation-checkpoint-approved
+- Expected from: in-progress
+- Expected version: 10
+- Version before: 10
+- Version after: 11
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/set_work_item_artifact_status.sh
+- Prev event: .harness/tasks/WI-0002/history/transitions/TX-20260329T203504-WI-0002-in-progress-to-in-progress.md
+- Prev event hash: b5b9c12da05d45a6f84b54a2e6e2482233e66255ca2bfac43ec6a8ccd9a92180
+- Event hash: ba79dd734d5eb09bdde1d308fcb5e7273cd6e7e20a1ea9a8dd040c5b722f408a

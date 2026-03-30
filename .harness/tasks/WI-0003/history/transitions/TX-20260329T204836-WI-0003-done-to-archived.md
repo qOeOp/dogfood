@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0003
+- At: 2026-03-29 20:48:36
+- From: done
+- To: archived
+- Actor: codex
+- Reason: accepted latest-event ordering fix archived after closeout checkpoint
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0003-archive
+- Expected from: done
+- Expected version: 11
+- Version before: 11
+- Version after: 12
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0003/history/transitions/TX-20260329T204835-WI-0003-done-to-done.md
+- Prev event hash: 9755633e0d6886d4ee678feeeb0cd836c31c3877c8fa760cfaa5b31ac8b60c6d
+- Event hash: 01a60ed25e28bcce516f397fcd32adafbbfeba693c6a08ba3831bd824b64008f

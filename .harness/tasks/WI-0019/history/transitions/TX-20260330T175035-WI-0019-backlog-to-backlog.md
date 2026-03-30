@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0019
+- At: 2026-03-30 17:50:35
+- From: backlog
+- To: backlog
+- Actor: codex
+- Reason: work item fields updated: Owner,Objective,Ready criteria,Done criteria,Why it matters,Decision needed
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0019-seed-fields
+- Expected from: backlog
+- Expected version: 1
+- Version before: 1
+- Version after: 2
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0019/history/transitions/TX-20260330T175002-WI-0019-none-to-backlog.md
+- Prev event hash: c535dbc2e23999458f2f8dd89f9e903b296de20a802d450d9687c72385607c45
+- Event hash: 36f00bce3510147310d8ee7c4605dec3a00130f4685727609f9186fb8e99a960

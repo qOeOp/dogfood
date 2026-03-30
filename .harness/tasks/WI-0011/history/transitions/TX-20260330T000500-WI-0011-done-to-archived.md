@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0011
+- At: 2026-03-30 00:05:00
+- From: done
+- To: archived
+- Actor: codex
+- Reason: archive accepted explicit-start concurrency slice
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260330T000500-32779-WI-0011-done-to-archived
+- Expected from: done
+- Expected version: 19
+- Version before: 19
+- Version after: 20
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0011/history/transitions/TX-20260330T000459-WI-0011-done-to-done.md
+- Prev event hash: 9913a099d07f85f012ce392e3ac469366f00d2f5ec1b0753ebf2e0e229c4e86d
+- Event hash: 44268e37c29cfdd2909e426e276e0bc1db30a79e752dcb3a357fc1a2e8cc86eb
