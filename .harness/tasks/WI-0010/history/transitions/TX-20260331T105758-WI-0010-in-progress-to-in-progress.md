@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 10:57:58
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: work item fields updated: Next handoff
+- Event type: field-update
+- Current blocker: none
+- Next handoff: Inspect the bounded complete_work_item helper-compaction slice, then keep deleting non-load-bearing support logic around already-validated controllers; WI-0010 remains in-progress until broader active-source ambiguity is reduced.
+- Operation ID: WI-0010-writeback-complete-helper-slice
+- Expected from: in-progress
+- Expected version: 41
+- Version before: 41
+- Version after: 42
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T105753-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: c02704a5a6fdd0cfde66d95b3e2fadc074703046f90c82b7b599370848e98050
+- Event hash: d1d409b380d8be5be44315d1f099bd0e8d36848691e54e531ae9313c94186d18

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 11:14:41
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: Inspect the bounded complete_work_item helper-compaction slice, then keep deleting non-load-bearing support logic around already-validated controllers; WI-0010 remains in-progress until broader active-source ambiguity is reduced.
+- Operation ID: OP-20260331T111441-60286-WI-0010-link-artifact
+- Expected from: in-progress
+- Expected version: 44
+- Version before: 44
+- Version after: 45
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/slef-evolution
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T111439-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: fcafcd049d4e87c1b7d0900b9d1e27cd87e9e382fa24b52f9241aeff4c359880
+- Event hash: 218ca40d9f5919b2219e9c42406bff9f3a37075ff4d9885fd1f1d9a8a91714ee

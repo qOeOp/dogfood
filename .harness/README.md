@@ -19,3 +19,4 @@
 - Built-in tracing defaults require explicit capture / redaction / disable policy, not vendor-default trust
 - Tool / approval / external-evidence provenance should stay explicit in recovery artifacts or traces
 - Skill installation path, provider config, and provider entry files remain user-owned and out of scope
+- Self-evolution execution loop: `.harness/self-evolution-loop.md`

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 00:22:15
+- From: in-progress
+- To: in-progress
+- Actor: Workflow & Automation Lead
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0010-approve-background-source-note
+- Expected from: in-progress
+- Expected version: 20
+- Version before: 20
+- Version after: 21
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/set_work_item_artifact_status.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T002214-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: a473bbead65f995ddd65c076fb13d7115ea0b5ea4751be81959c6425b383d1c6
+- Event hash: 6db6d9a68855322d02a88f90e128bb3d60b0e18457d35595c12d7b57878b353b

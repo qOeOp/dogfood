@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0020
+- At: 2026-03-30 22:26:21
+- From: backlog
+- To: planning
+- Actor: codex
+- Reason: planning started after review-boundary stop-the-line intake
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260330T222619-59408-WI-0020-backlog-to-planning
+- Expected from: backlog
+- Expected version: 9
+- Version before: 9
+- Version after: 10
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0020/history/transitions/TX-20260330T222613-WI-0020-backlog-to-backlog.md
+- Prev event hash: 6146f1043475eb897e001bb092cc481208e610042d68a4649613c0308ee55494
+- Event hash: 88a886adec24a2b28c42a816771efad24e77da739d75818c7b5ed2c39bc86a4a

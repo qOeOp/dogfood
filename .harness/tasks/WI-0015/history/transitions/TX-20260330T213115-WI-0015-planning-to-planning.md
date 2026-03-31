@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0015
+- At: 2026-03-30 21:31:15
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260330T213115-91285-WI-0015-link-artifact
+- Expected from: planning
+- Expected version: 4
+- Version before: 4
+- Version after: 5
+- Interrupt marker: none
+- Resume target: none
+- Invoker: /Users/vx/WebstormProjects/dogfood/.agents/skills/harness/scripts/record_user_criticism_issue.sh
+- Prev event: .harness/tasks/WI-0015/history/transitions/TX-20260330T113035-WI-0015-planning-to-planning.md
+- Prev event hash: 666415958b90269ffa2aded3d90c25b2e3435c1fbb7ccce82957e4b603b6f1b5
+- Event hash: 8d43853ede518dc149007f436257718527e7f10a8e82b3cc0c4106785d81085f

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 11:14:47
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: Inspect the bounded complete_work_item helper-compaction slice, then keep deleting non-load-bearing support logic around already-validated controllers; WI-0010 remains in-progress until broader active-source ambiguity is reduced.
+- Operation ID: WI-0010-approve-stale-surface-audit
+- Expected from: in-progress
+- Expected version: 47
+- Version before: 47
+- Version after: 48
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/slef-evolution
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T111446-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: 60bbe4d86fd89792c7d2075b9775d47ee608cdfb677555af2de8b59f674283de
+- Event hash: e1a74e3897522491ed79d0c81888945365b749eb7b0d326b066b5c963a503e13

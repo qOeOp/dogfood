@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 11:16:28
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: work item fields updated: Next handoff
+- Event type: field-update
+- Current blocker: none
+- Next handoff: Inspect the single-active-checkpoint slice and its runtime cleanup, then continue deletion-oriented entropy work with only one active checkpoint retained per task.
+- Operation ID: WI-0010-writeback-single-active-checkpoint-handoff
+- Expected from: in-progress
+- Expected version: 49
+- Version before: 49
+- Version after: 50
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/slef-evolution
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T111529-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: 6542b85ab4fd3dc185045a976ccda14177a6d899ce89622de82660f6c2deadcb
+- Event hash: c03532a7069f0816a9ea825a32b592f2ab7071e780ff4efc595e4149d44133a4

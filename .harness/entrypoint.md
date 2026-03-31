@@ -3,8 +3,9 @@
 Read in this order:
 
 1. `.harness/README.md`
-2. `.harness/tasks/<task-id>/task.md` when a task exists
-3. `.harness/tasks/<task-id>/task.md` `## Recovery` section when a task is active or paused
+2. `.harness/self-evolution-loop.md` (闭环执行约束)
+3. `.harness/tasks/<task-id>/task.md` when a task exists
+4. `.harness/tasks/<task-id>/task.md` `## Recovery` section when a task is active or paused
 
 Runtime notes:
 

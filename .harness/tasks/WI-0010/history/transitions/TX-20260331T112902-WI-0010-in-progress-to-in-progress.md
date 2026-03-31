@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 11:29:02
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: Inspect the single-active-checkpoint slice and its runtime cleanup, then continue deletion-oriented entropy work with only one active checkpoint retained per task.
+- Operation ID: OP-20260331T112902-25703-WI-0010-artifact-status-approved
+- Expected from: in-progress
+- Expected version: 56
+- Version before: 56
+- Version after: 57
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/set_work_item_artifact_status.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T112901-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: 162fe681fcd576795dcd5d1989416cc1e887712bdfc38d2b4e42fcee5240a0e9
+- Event hash: dc7ca50b0f852c89167302063883ef5ae78587bfbd2cd7c8352e4a099b37ae6c

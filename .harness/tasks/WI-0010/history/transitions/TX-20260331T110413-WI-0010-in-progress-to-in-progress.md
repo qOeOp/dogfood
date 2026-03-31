@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 11:04:13
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: Inspect the bounded complete_work_item helper-compaction slice, then keep deleting non-load-bearing support logic around already-validated controllers; WI-0010 remains in-progress until broader active-source ambiguity is reduced.
+- Operation ID: WI-0010-link-hard-guard-gap-audit
+- Expected from: in-progress
+- Expected version: 42
+- Version before: 42
+- Version after: 43
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T105758-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: d1d409b380d8be5be44315d1f099bd0e8d36848691e54e531ae9313c94186d18
+- Event hash: 8d0c0a1c04520d5608f7e946301929d0030412c3be5b3169395c377c47b1313d

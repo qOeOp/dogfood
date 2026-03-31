@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-30 22:26:21
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: work item fields updated: Current stage owner,Current stage role,Why it matters,Decision needed
+- Event type: field-update
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260330T222621-61211-WI-0010-update-fields
+- Expected from: in-progress
+- Expected version: 15
+- Version before: 15
+- Version after: 16
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260330T172110-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: 803e5ceaa2e294e1d3ee23e6378804126b3004668992c7c00b1731bda89b76fa
+- Event hash: 4ff650bdb6e33eb6500522816bcc0fb4d9f5961529de848545e1b775f5706d39

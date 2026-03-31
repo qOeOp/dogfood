@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0020
+- At: 2026-03-31 00:01:48
+- From: planning
+- To: planning
+- Actor: Workflow & Automation Lead
+- Reason: work item fields updated: Current blocker,Next handoff
+- Event type: field-update
+- Current blocker: WI-0010 still owns the upstream entropy-compaction lane; WI-0020 now has the acceptance guard implemented and validated, but its framework source slice is not yet clean enough for honest review.
+- Next handoff: Resume WI-0020 by carving a reviewable slice around scripts/accept_review_work_item.sh and scripts/run_state_validation_slice.sh, then return to WI-0017 acceptance only after that slice is clean.
+- Operation ID: WI-0020-writeback-implementation
+- Expected from: planning
+- Expected version: 14
+- Version before: 14
+- Version after: 15
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0020/history/transitions/TX-20260331T000148-WI-0020-planning-to-planning.md
+- Prev event hash: 7e723daf49de4d1756e1c5f0856c0a6009055cec0b0af1d650f60c20122b2ba9
+- Event hash: ce17ec6df9ccb530762bbe127b8666bd7a9d9d0830744dbeedd8b7ed451fca82

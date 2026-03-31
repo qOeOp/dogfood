@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 00:29:37
+- From: in-progress
+- To: in-progress
+- Actor: Workflow & Automation Lead
+- Reason: work item fields updated: Next handoff
+- Event type: field-update
+- Current blocker: none
+- Next handoff: Review a clean source slice around lib_state.sh, transition_work_item.sh, select_work_item.sh, complete_work_item.sh, and run_state_validation_slice.sh; after that, entropy handling should no longer require user arbitration.
+- Operation ID: WI-0010-writeback-entropy-auto-interrupt
+- Expected from: in-progress
+- Expected version: 23
+- Version before: 23
+- Version after: 24
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T002937-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: d7cdad4f1be320af901958fa71bfdfc156cc263c89ce547099dffa56a5d0f9e6
+- Event hash: 316fff053cd107a3c2b21c4d1808d5a52e0c5284d3f4ce995e2f89406ce9cc64

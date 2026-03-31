@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0017
+- At: 2026-03-30 22:27:02
+- From: review
+- To: paused
+- Actor: codex
+- Reason: stop-the-line: selected review item no longer maps to a clean framework source slice
+- Event type: approval-pause
+- Current blocker: acceptance blocked until WI-0020 restores a reviewable framework source boundary
+- Next handoff: resume WI-0017 acceptance after WI-0020
+- Operation ID: OP-20260330T222702-64939-WI-0017-review-to-paused
+- Expected from: review
+- Expected version: 20
+- Version before: 20
+- Version after: 21
+- Interrupt marker: risk-review-required
+- Resume target: review
+- Invoker: ./.agents/skills/harness/scripts/transition_work_item.sh
+- Prev event: .harness/tasks/WI-0017/history/transitions/TX-20260330T202605-WI-0017-in-progress-to-review.md
+- Prev event hash: 3afc46fcc568e968a90479077bc74d5a045036553d9c4a5bc7c77e4128cce9b8
+- Event hash: 8bea687028e9405dd76d2dcc9374e07716469a5bf15f73c8c7ed758bf857db50

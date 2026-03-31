@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0020
+- At: 2026-03-31 11:14:48
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: WI-0010 still owns the upstream entropy-compaction lane; WI-0020 now has the acceptance guard implemented and validated, but its framework source slice is not yet clean enough for honest review.
+- Next handoff: Resume WI-0020 by carving a reviewable slice around scripts/accept_review_work_item.sh and scripts/run_state_validation_slice.sh, then return to WI-0017 acceptance only after that slice is clean.
+- Operation ID: WI-0020-single-active-checkpoint-cleanup
+- Expected from: planning
+- Expected version: 15
+- Version before: 15
+- Version after: 16
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./scripts/slef-evolution
+- Prev event: .harness/tasks/WI-0020/history/transitions/TX-20260331T000148-WI-0020-planning-to-planning-1.md
+- Prev event hash: ce17ec6df9ccb530762bbe127b8666bd7a9d9d0830744dbeedd8b7ed451fca82
+- Event hash: 30583cdac8d863e62437150ab770e66a43ef588a8f8508b8d2097e0facc845a7

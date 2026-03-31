@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 01:09:37
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: work item fields updated: Next handoff
+- Event type: field-update
+- Current blocker: none
+- Next handoff: Review the bounded entropy auto-interrupt slice via 2026-03-31-entropy-auto-interrupt-review-slice-checkpoint.md and 2026-03-31-mixed-worktree-review-boundary-process-audit.md; do not treat raw full-file diffs as the review surface.
+- Operation ID: WI-0010-writeback-review-carrier
+- Expected from: in-progress
+- Expected version: 26
+- Version before: 26
+- Version after: 27
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T010925-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: ecdd7d0c72eecce6dff7752b6c8c9585d5fa4609713128c4ba15c99637bdfa76
+- Event hash: 978585e438be044b85e9e873fb2de19cf7172a2db21a6b6a94b556a1749455c8

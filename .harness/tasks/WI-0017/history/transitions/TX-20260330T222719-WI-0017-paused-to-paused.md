@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0017
+- At: 2026-03-30 22:27:19
+- From: paused
+- To: paused
+- Actor: codex
+- Reason: work item fields updated: Blocked by
+- Event type: field-update
+- Current blocker: acceptance blocked until WI-0020 restores a reviewable framework source boundary
+- Next handoff: resume WI-0017 acceptance after WI-0020
+- Operation ID: OP-20260330T222719-66506-WI-0017-update-fields
+- Expected from: paused
+- Expected version: 21
+- Version before: 21
+- Version after: 22
+- Interrupt marker: risk-review-required
+- Resume target: review
+- Invoker: ./.agents/skills/harness/scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0017/history/transitions/TX-20260330T222702-WI-0017-review-to-paused.md
+- Prev event hash: 8bea687028e9405dd76d2dcc9374e07716469a5bf15f73c8c7ed758bf857db50
+- Event hash: 5380411c78a233195bbe8ae34b00cb3b25b2d8732ba9603e2a61259ea9440c07

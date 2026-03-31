@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 01:15:55
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: work item fields updated: Next handoff
+- Event type: field-update
+- Current blocker: none
+- Next handoff: Inspect the bounded artifact pair as the future review boundary for the entropy auto-interrupt slice; WI-0010 itself remains in-progress until active-source ambiguity is reduced enough for an honest review gate.
+- Operation ID: WI-0010-clarify-review-language
+- Expected from: in-progress
+- Expected version: 28
+- Version before: 28
+- Version after: 29
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T011549-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: db72cd9656fc0a0cbad0829f9857e32a592f3a5392478362e309a1785b294e80
+- Event hash: 2880cf312458690c55e27feb42a32a0bbbd655038242222addd9267dc7850afb

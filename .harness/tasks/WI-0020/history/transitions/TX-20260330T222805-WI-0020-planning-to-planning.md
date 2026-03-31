@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0020
+- At: 2026-03-30 22:28:05
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: WI-0010 still owns the upstream entropy-pressure lane that is currently collapsing review boundaries across pending framework slices.
+- Next handoff: Resume WI-0020 after WI-0010 narrows the active source slice or defines the acceptance preflight boundary explicitly.
+- Operation ID: OP-20260330T222805-70478-WI-0020-link-artifact
+- Expected from: planning
+- Expected version: 11
+- Version before: 11
+- Version after: 12
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/new_checkpoint.sh
+- Prev event: .harness/tasks/WI-0020/history/transitions/TX-20260330T222757-WI-0020-planning-to-planning.md
+- Prev event hash: eb573cc71cae632dd66b33d2b2d452bb393fc3055a2a6b9a8f40d79580d07579
+- Event hash: b398d6140adbe1d8d120a7b54880e4a130aebac1f9bf6661cf4d8cfc45a0ae10

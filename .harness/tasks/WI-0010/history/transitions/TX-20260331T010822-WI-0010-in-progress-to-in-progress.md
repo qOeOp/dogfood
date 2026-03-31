@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 01:08:22
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: Review a clean source slice around lib_state.sh, transition_work_item.sh, select_work_item.sh, complete_work_item.sh, and run_state_validation_slice.sh; after that, entropy handling should no longer require user arbitration.
+- Operation ID: OP-20260331T010822-78159-WI-0010-link-artifact
+- Expected from: in-progress
+- Expected version: 24
+- Version before: 24
+- Version after: 25
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/new_checkpoint.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T002937-WI-0010-in-progress-to-in-progress-1.md
+- Prev event hash: 316fff053cd107a3c2b21c4d1808d5a52e0c5284d3f4ce995e2f89406ce9cc64
+- Event hash: 881bea88a4bd5f4a6879dfcd726b740be6263dd5547aa9f45e73fcbc4fadc2c0

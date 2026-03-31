@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0015
+- At: 2026-03-30 21:32:23
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260330T213223-6056-WI-0015-link-artifact
+- Expected from: planning
+- Expected version: 6
+- Version before: 6
+- Version after: 7
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0015/history/transitions/TX-20260330T213116-WI-0015-planning-to-planning.md
+- Prev event hash: f61b17ac77a8d00bf996794d554c6b38e41f089ab3930496bebe98eed1f55b6a
+- Event hash: 192add43494fe58e9cfb797d871b5e648bc8f8d040736a008d8764add3d11c3d

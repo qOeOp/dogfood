@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0017
+- At: 2026-03-30 20:26:05
+- From: in-progress
+- To: review
+- Actor: codex
+- Reason: issue-ledger slice implemented and validated
+- Event type: state-transition
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0017-review
+- Expected from: in-progress
+- Expected version: 19
+- Version before: 19
+- Version after: 20
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/complete_work_item.sh
+- Prev event: .harness/tasks/WI-0017/history/transitions/TX-20260330T202530-WI-0017-in-progress-to-in-progress-1.md
+- Prev event hash: eb20e1b342bb61590c190ef112961404322548c821acfd693c0a51528b129617
+- Event hash: 3afc46fcc568e968a90479077bc74d5a045036553d9c4a5bc7c77e4128cce9b8

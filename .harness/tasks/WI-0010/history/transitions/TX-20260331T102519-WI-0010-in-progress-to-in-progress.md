@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 10:25:19
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: work item fields updated: Next handoff
+- Event type: field-update
+- Current blocker: none
+- Next handoff: Inspect the bounded query_work_items helper-compaction slice, then choose the next subtractive cleanup target; WI-0010 remains in-progress until broader active-source ambiguity is reduced.
+- Operation ID: WI-0010-writeback-query-helper-slice
+- Expected from: in-progress
+- Expected version: 33
+- Version before: 33
+- Version after: 34
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T102509-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: 39f3b97d3b0bfe1862ab2f4ad08d64cb9869ac0c4bd5d23dbd1a9c524b54e85f
+- Event hash: 4094feaff8828f20c99b5f77f5eb11bd7ea55426db52032728d501b050bdf4f0

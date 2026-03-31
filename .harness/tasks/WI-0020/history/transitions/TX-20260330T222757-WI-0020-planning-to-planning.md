@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0020
+- At: 2026-03-30 22:27:57
+- From: planning
+- To: planning
+- Actor: codex
+- Reason: work item fields updated: Current blocker,Next handoff
+- Event type: field-update
+- Current blocker: WI-0010 still owns the upstream entropy-pressure lane that is currently collapsing review boundaries across pending framework slices.
+- Next handoff: Resume WI-0020 after WI-0010 narrows the active source slice or defines the acceptance preflight boundary explicitly.
+- Operation ID: OP-20260330T222757-69562-WI-0020-update-fields
+- Expected from: planning
+- Expected version: 10
+- Version before: 10
+- Version after: 11
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0020/history/transitions/TX-20260330T222621-WI-0020-backlog-to-planning.md
+- Prev event hash: 88a886adec24a2b28c42a816771efad24e77da739d75818c7b5ed2c39bc86a4a
+- Event hash: eb573cc71cae632dd66b33d2b2d452bb393fc3055a2a6b9a8f40d79580d07579

@@ -2,9 +2,9 @@
 
 - Schema version: 2
 - State authority: script-only
-- State version: 4
-- Last operation ID: WI-0015-owner-alignment
-- Last transition event: .harness/tasks/WI-0015/history/transitions/TX-20260330T113035-WI-0015-planning-to-planning.md
+- State version: 7
+- Last operation ID: OP-20260330T213223-6056-WI-0015-link-artifact
+- Last transition event: .harness/tasks/WI-0015/history/transitions/TX-20260330T213223-WI-0015-planning-to-planning.md
 - ID: WI-0015
 - Title: User criticism compounding writeback controller
 - Type: control
@@ -38,7 +38,7 @@
 - Blocks: none
 - Current blocker: none
 - Next handoff: none
-- Linked attachments: none
+- Linked attachments: .harness/tasks/WI-0015/attachments/issue-ledger.md|issue-ledger|active;.harness/tasks/WI-0015/attachments/2026-03-30-harness-intake-auto-load-process-audit.md|process-audit|active
 - Interrupt marker: none
 - Resume target: none
 - Created at: 2026-03-30

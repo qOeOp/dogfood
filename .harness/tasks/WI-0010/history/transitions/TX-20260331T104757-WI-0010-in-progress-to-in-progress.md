@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 10:47:57
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: work item fields updated: Next handoff
+- Event type: field-update
+- Current blocker: none
+- Next handoff: Inspect the bounded open_work_item helper-compaction slice, then continue choosing deletion-dominant hotspots; WI-0010 remains in-progress until broader active-source ambiguity is reduced.
+- Operation ID: WI-0010-writeback-open-helper-slice
+- Expected from: in-progress
+- Expected version: 37
+- Version before: 37
+- Version after: 38
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/update_work_item_fields.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T104752-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: 7c5953f9f0eda94d2ed4547efe1965cad01d12880c23df29a6b94ee26dabff6e
+- Event hash: be221744705436c4a686798ebc05ac7f5618ce358749b46d490b3a1b87259eb0

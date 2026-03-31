@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0020
+- At: 2026-03-30 22:25:49
+- From: backlog
+- To: backlog
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260330T222549-55873-WI-0020-link-artifact
+- Expected from: backlog
+- Expected version: 5
+- Version before: 5
+- Version after: 6
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0020/history/transitions/TX-20260330T222548-WI-0020-backlog-to-backlog-2.md
+- Prev event hash: 27405dba3111574c1e2b5ba0b4ddaa4de36a1e2c29ce66fa706c8ae403b28d53
+- Event hash: a882c1e3faa25d1da0b222f9699f8de6a2e7f03957563519509a9cfe67b59a33

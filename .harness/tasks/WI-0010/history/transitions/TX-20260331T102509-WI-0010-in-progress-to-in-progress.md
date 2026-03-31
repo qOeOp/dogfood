@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 10:25:09
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: Inspect the bounded entropy auto-interrupt support slice, then return to the parent goal of subtractive cleanup / source ambiguity reduction; WI-0010 remains the cleanup-and-de-entropy lane, not a standalone review-boundary task.
+- Operation ID: WI-0010-link-query-helper-audit
+- Expected from: in-progress
+- Expected version: 32
+- Version before: 32
+- Version after: 33
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T102445-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: a10cd53819f83899e58c2a91909f188d353d5602a4a6ca983c82e124f57355de
+- Event hash: 39f3b97d3b0bfe1862ab2f4ad08d64cb9869ac0c4bd5d23dbd1a9c524b54e85f

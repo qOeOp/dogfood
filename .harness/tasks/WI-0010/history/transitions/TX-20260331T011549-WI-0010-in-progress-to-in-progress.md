@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 01:15:49
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: Review the bounded entropy auto-interrupt slice via 2026-03-31-entropy-auto-interrupt-review-slice-checkpoint.md and 2026-03-31-mixed-worktree-review-boundary-process-audit.md; do not treat raw full-file diffs as the review surface.
+- Operation ID: WI-0010-link-vocabulary-audit
+- Expected from: in-progress
+- Expected version: 27
+- Version before: 27
+- Version after: 28
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T010937-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: 978585e438be044b85e9e873fb2de19cf7172a2db21a6b6a94b556a1749455c8
+- Event hash: db72cd9656fc0a0cbad0829f9857e32a592f3a5392478362e309a1785b294e80

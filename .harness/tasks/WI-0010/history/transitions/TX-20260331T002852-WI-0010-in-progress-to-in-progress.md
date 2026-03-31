@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 00:28:52
+- From: in-progress
+- To: in-progress
+- Actor: Workflow & Automation Lead
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: OP-20260331T002852-60200-WI-0010-link-artifact
+- Expected from: in-progress
+- Expected version: 21
+- Version before: 21
+- Version after: 22
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/new_checkpoint.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T002215-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: 6db6d9a68855322d02a88f90e128bb3d60b0e18457d35595c12d7b57878b353b
+- Event hash: 88d4859a1b9ee866611b93f4dcd1333e88823abcb0397f8cd2f149a1f2bfe7a0

@@ -2,6 +2,7 @@
 
 - Linked work items: WI-0010
 
+
 - Date: 2026-03-30
 - Mode: consumer
 - Scope: harness-owned runtime docs, workspace baseline, state system, optional brief layer

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 01:09:25
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: Review a clean source slice around lib_state.sh, transition_work_item.sh, select_work_item.sh, complete_work_item.sh, and run_state_validation_slice.sh; after that, entropy handling should no longer require user arbitration.
+- Operation ID: WI-0010-link-mixed-review-boundary-audit
+- Expected from: in-progress
+- Expected version: 25
+- Version before: 25
+- Version after: 26
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T010822-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: 881bea88a4bd5f4a6879dfcd726b740be6263dd5547aa9f45e73fcbc4fadc2c0
+- Event hash: ecdd7d0c72eecce6dff7752b6c8c9585d5fa4609713128c4ba15c99637bdfa76

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0020
+- At: 2026-03-31 00:01:48
+- From: planning
+- To: planning
+- Actor: Workflow & Automation Lead
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: WI-0010 still owns the upstream entropy-pressure lane that is currently collapsing review boundaries across pending framework slices.
+- Next handoff: Resume WI-0020 after WI-0010 narrows the active source slice or defines the acceptance preflight boundary explicitly.
+- Operation ID: WI-0020-approve-process-audit
+- Expected from: planning
+- Expected version: 13
+- Version before: 13
+- Version after: 14
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/set_work_item_artifact_status.sh
+- Prev event: .harness/tasks/WI-0020/history/transitions/TX-20260331T000033-WI-0020-planning-to-planning.md
+- Prev event hash: 2b25f8ec351dd63eaf8237046f13d78d697bdb8a1a863866c78b20d128dc01c4
+- Event hash: 7e723daf49de4d1756e1c5f0856c0a6009055cec0b0af1d650f60c20122b2ba9

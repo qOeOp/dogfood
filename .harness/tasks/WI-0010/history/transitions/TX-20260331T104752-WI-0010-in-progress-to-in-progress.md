@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 10:47:52
+- From: in-progress
+- To: in-progress
+- Actor: codex
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: Inspect the bounded query_work_items helper-compaction slice, then choose the next subtractive cleanup target; WI-0010 remains in-progress until broader active-source ambiguity is reduced.
+- Operation ID: WI-0010-link-open-helper-audit
+- Expected from: in-progress
+- Expected version: 36
+- Version before: 36
+- Version after: 37
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T104728-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: 92cd95d866699c86377963a092abf0644c4043f0c9358c116a9dda157ec2cb09
+- Event hash: 7c5953f9f0eda94d2ed4547efe1965cad01d12880c23df29a6b94ee26dabff6e

@@ -1,0 +1,22 @@
+# Transition Event
+
+- Work Item: WI-0010
+- At: 2026-03-31 00:22:12
+- From: in-progress
+- To: in-progress
+- Actor: Workflow & Automation Lead
+- Reason: artifact link updated
+- Event type: artifact-link
+- Current blocker: none
+- Next handoff: none
+- Operation ID: WI-0010-link-entropy-auto-process-audit
+- Expected from: in-progress
+- Expected version: 17
+- Version before: 17
+- Version after: 18
+- Interrupt marker: none
+- Resume target: none
+- Invoker: ./.agents/skills/harness/scripts/link_work_item_artifact.sh
+- Prev event: .harness/tasks/WI-0010/history/transitions/TX-20260331T001759-WI-0010-in-progress-to-in-progress.md
+- Prev event hash: 47daad7f794ffd0de08097df3b8de7cde987315645718273e042da55c6965a61
+- Event hash: fbf703cc981c1f2acd8cccedc2f1b0ed5807e29dd6163dbc4650ae93009b7910
